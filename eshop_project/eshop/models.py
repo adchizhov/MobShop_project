@@ -14,6 +14,7 @@ class Product(models.Model):
     def __str__(self):
         return ('Product: {}, description: {}, price {}'.format(self.name, self.description, self.price))
 
+
 @python_2_unicode_compatible
 class Manufacturer(models.Model):
     product_name = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -25,4 +26,9 @@ class Manufacturer(models.Model):
 
 @python_2_unicode_compatible
 class Order(models.Model):
+	pass
+
+
+@python_2_unicode_compatible
+class Customer(models.Model):
 	pass
