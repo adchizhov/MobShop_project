@@ -39,6 +39,7 @@ class Customer(models.Model):
 
 @python_2_unicode_compatible
 class Order(models.Model):
+	# стойкое ощущение что здесь многого не хватает
     customer = models.ForeignKey('Customer', on_delete=models.CASCADE)
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
     ordered_datetime = models.DateTimeField()
