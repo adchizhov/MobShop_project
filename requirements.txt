@@ -1,0 +1,17 @@
+Babel==2.3.4
+beautifulsoup4==4.5.1
+Django==1.10.3
+django-modelcluster==2.0
+django-phonenumber-field==1.1.0
+django-taggit==0.18.3
+django-treebeard==4.0.1
+djangorestframework==3.5.3
+html5lib==0.999999999
+phonenumberslite==7.7.4
+Pillow==3.4.2
+pytz==2016.7
+six==1.10.0
+Unidecode==0.4.19
+wagtail==1.7
+webencodings==0.5
+Willow==0.4
