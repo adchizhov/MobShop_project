@@ -8,7 +8,5 @@ from .forms import ManufacturerForm, PhoneVersionForm, PhoneProductForm, Address
 
 def index_page(request):
     if request.method == "GET":
-        c = {'PhoneProductForm': PhoneProductForm}
+        c = {'PhoneProductForm': PhoneProductForm} # что-то херня какая-то надо подумать
         return render(request, 'eshop/index.html', c)
-
-
