@@ -18,7 +18,7 @@ class PhoneVersion(models.Model):
     gb_64 = ('64 gb', '64 gb version')
     gb_128 = ('128 gb', '128 gb version')
     __all = (gb_16, gb_32, gb_64, gb_128)
-    version = models.CharField(max_length=5, choices=__all)
+    version = models.CharField(max_length=6, choices=__all)
 
     def __str__(self):
         return self.version
@@ -35,7 +35,7 @@ class PhoneProduct(models.Model):
     in_stock = models.BooleanField(default=True)
 
     def __str__(self):
-        return ('Product: {}, description: {}, price {}'.format(self.name, self.description, self.price))
+        return ('Product: {}, description: {}, price {}'.format(self.phone_model, self.description, self.price))
 
 @python_2_unicode_compatible
 class Address(models.Model):
