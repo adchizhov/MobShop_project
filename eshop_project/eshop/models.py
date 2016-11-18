@@ -27,11 +27,10 @@ class PhoneVersion(models.Model):
 class PhoneProduct(models.Model):
     sku = models.CharField(max_length=15)
     manufacturer = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
-    name = models.CharField(max_length=30)
-    category = models.CharField(max_length=30)
+    phone_model = models.CharField(max_length=30)
     version = models.ForeignKey('PhoneVersion')
-    price = models.DecimalField(max_digits=100, decimal_places=2)
     description = models.CharField(max_length=250)
+    price = models.DecimalField(max_digits=100, decimal_places=2)
     stock = models.PositiveSmallIntegerField(default=1)
     in_stock = models.BooleanField(default=True)
 
