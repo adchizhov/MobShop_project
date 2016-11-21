@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import datetime
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
@@ -7,6 +9,10 @@ from django.utils.encoding import python_2_unicode_compatible # поддержи
 @python_2_unicode_compatible
 class Manufacturer(models.Model):
     manufacturer_name = models.CharField(max_length=50)
+    
+    class Meta:
+    	verbose_name = 'Производитель'
+    	verbose_name_plural = 'Производители'
 
     def __str__(self):
         return ('Manufacturer: {}'.format(self.manufacturer_name))
@@ -40,6 +46,10 @@ class PhoneProduct(models.Model):
 @python_2_unicode_compatible
 class Address(models.Model):
     full = models.CharField(max_length=150)
+
+    class Meta:
+    	verbose_name = 'Адрес'
+    	verbose_name_plural = 'Адреса'
 
     def __str__(self):
         return self.full
