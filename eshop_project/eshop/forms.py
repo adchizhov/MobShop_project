@@ -9,21 +9,9 @@ class ManufacturerForm(forms.ModelForm):
 		fields = '__all__'
 
 
-class PhoneVersionForm(forms.ModelForm):
-	class Meta:
-		model = PhoneVersion
-		fields = '__all__'
-
-
 class PhoneProductForm(forms.ModelForm):
 	class Meta:
 		model = PhoneProduct
-		fields = '__all__'
-
-
-class AddressForm(forms.ModelForm):
-	class Meta:
-		model = Address
 		fields = '__all__'
 
 

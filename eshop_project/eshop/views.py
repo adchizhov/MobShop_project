@@ -3,11 +3,24 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect, Http404
 # from .models import 
 from django.utils import timezone
-from .forms import ManufacturerForm, PhoneVersionForm, PhoneProductForm, AddressForm, CustomerForm, OrderForm
+import logging
+from .forms import *
 
-# Create your views here.
+
+logger = logging.getLogger(__name__)
+
+logger.debug("blah blah blah")
+logger.warning("It is a warning")
+logger.error("All is broken")
+
+
+
+
 
 def index_page(request):
-    if request.method == "GET":
-        c = {'PhoneProductForm': PhoneProductForm} # что-то херня какая-то надо подумать
-        return render(request, 'eshop/index.html', c)
+    try:
+        if request.method == "GET":
+            c = {'ManufacturerForm': ManufacturerForm} # что-то херня какая-то надо подумать
+            return render(request, 'eshop/index.html', c)
+    except ValueError:
+        logger.exception("I know it could happen")
