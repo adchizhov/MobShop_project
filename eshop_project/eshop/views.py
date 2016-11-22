@@ -18,9 +18,8 @@ logger.error("All is broken")
 
 
 def index_page(request):
-    try:
-        if request.method == "GET":
-            c = {'ManufacturerForm': ManufacturerForm} # что-то херня какая-то надо подумать
-            return render(request, 'eshop/index.html', c)
-    except ValueError:
+    if request.method == "GET":
+        c = {'ManufacturerForm': ManufacturerForm} # что-то бредни надо подумать
+        return render(request, 'eshop/index.html', c)
+    else:
         logger.exception("I know it could happen")
