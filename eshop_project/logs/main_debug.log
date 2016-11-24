@@ -289,3 +289,6 @@ INFO:django.server: "GET /admin/ HTTP/1.1" 200 8456 (2016-11-24 11:50:06; baseht
 INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 6348 (2016-11-24 11:50:07; basehttp.py:131)
 INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-24 11:50:07; basehttp.py:131)
 INFO:django.server: "GET /admin/ HTTP/1.1" 200 8456 (2016-11-24 11:50:09; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-24 13:50:36; views.py:13)
+WARNING:eshop.views: It is a warning (2016-11-24 13:50:36; views.py:14)
+ERROR:eshop.views: All is broken (2016-11-24 13:50:36; views.py:15)
