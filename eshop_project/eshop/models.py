@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from __future__ import unicode_literals
 import datetime
 import moneyed
 from djmoney.models.fields import MoneyField
