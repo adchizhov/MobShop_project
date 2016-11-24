@@ -10,7 +10,8 @@ class CustomManufacturer(admin.ModelAdmin):
 
 
 class CustomPhoneProduct(admin.ModelAdmin):
-    list_display = ('manufacturer',
+    list_display = ('id',
+                    'manufacturer',
                     'phone_model',
                     'price',
                     'stock',

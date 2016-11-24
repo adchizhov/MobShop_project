@@ -2,10 +2,11 @@
 from __future__ import unicode_literals
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect, Http404
-# from .models import 
 from django.utils import timezone
 import logging
+#from django.views import generic
 from .forms import *
+from .models import *
 
 
 logger = logging.getLogger(__name__)
@@ -15,12 +16,15 @@ logger.warning("It is a warning")
 logger.error("All is broken")
 
 
-
-
-
 def index_page(request):
     if request.method == "GET":
-        c = {'ManufacturerForm': ManufacturerForm} # что-то бредни надо подумать
+        c = {'ManufacturerForm': ManufacturerForm} # TODO что-то бредни надо подумать
         return render(request, 'eshop/index.html', c)
+
+def show_manufacturers(request):
+    if request.method == "GET":
+        manufacturers = Manufacturer.objects.all()
+        c = {'manufacturers': manufacturers}
+        return render(request, 'eshop/manufacturers.html', c)
     else:
-        logger.exception("I know it could happen")
+        logger.exception("NO POST METHOD!")

@@ -1,0 +1,16 @@
+{% extends 'eshop/_base.html' %}
+{% block content %}
+    <h4 align="center">List of manufacturers</h4>
+    <div class="center">
+    {% if manufacturers %}
+        <ul>
+            {% for manu in manufacturers %}
+                <li>{{ manu.manufacturer_name }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <strong>There are no manufacturers to present!</strong>
+    {% endif %}
+        <p align="center"><a href="/eshop/">Return to Gremlin</a></p>
+    </div>
+{% endblock %}
