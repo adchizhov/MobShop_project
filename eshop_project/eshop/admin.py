@@ -5,6 +5,8 @@ from django.contrib import admin
 from .models import Manufacturer, PhoneProduct, Customer, Order
 
 __author__ = 'adchizhov'
+
+
 # Register your models here.
 
 
@@ -14,46 +16,54 @@ class CustomManufacturer(admin.ModelAdmin):
 
 
 class CustomPhoneProduct(admin.ModelAdmin):
-    list_display = ('id',
-                    'manufacturer',
-                    'phone_model',
-                    'price',
-                    'stock',
-                    'in_stock',
-                    )
+    list_display = (
+        'id',
+        'manufacturer',
+        'phone_model',
+        'price',
+        'stock',
+        'in_stock',
+    )
     list_per_page = 50
-    list_editable = ('price',
-                     'stock',
-                     )
-    search_fields = ('manufacturer',
-                     'phone_model',
-                     )
-    list_filter = ('manufacturer',
-                   'phone_model',
-                   'price',
-                   'stock',
-                   'in_stock',
-                   )
+    list_editable = (
+        'price',
+        'stock',
+    )
+    search_fields = (
+        'manufacturer',
+        'phone_model',
+    )
+    list_filter = (
+        'manufacturer',
+        'phone_model',
+        'price',
+        'stock',
+        'in_stock',
+    )
 
 
 class CustomCustomer(admin.ModelAdmin):
-    list_display = ('first_name',
-                    'last_name',
-                    'phone_number',
-                    'email',
-                    'address',
-                    )
-    search_fields = ('phone_number',
-                     'email',
-                     'address',
-                     )
+    list_display = (
+        'first_name',
+        'last_name',
+        'phone_number',
+        'email',
+        'address',
+    )
+    search_fields = (
+        'phone_number',
+        'email',
+        'address',
+    )
     list_per_page = 100
 
 
 class CustomOrder(admin.ModelAdmin):
-    list_display = ('order_number',
-                    'customer',
-                    'product',)
+    list_display = (
+        'order_number',
+        'customer',
+        'product'
+    )
     list_per_page = 100
     date_hierarchy = 'ordered_datetime'
 

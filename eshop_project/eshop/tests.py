@@ -31,23 +31,24 @@ class TestPhoneProduct(TestCase):
         cls.manufacturer = Manufacturer.objects.create(manufacturer_name='LG')
 
     def test_phoneproduct_creation(self):
-        ph_prod = PhoneProduct.objects.create(sku=107687,
-                                              manufacturer=self.manufacturer,
-                                              phone_model='LG G5',
-                                              chipset='Snapdragon 810',
-                                              phone_RAM_memory='3 ГБ ОЗУ',
-                                              phone_memory='64 ГБ встроенная память',
-                                              size_screen='5.5 дюйма FullHD IPS',
-                                              camera='18/6 МП',
-                                              battery='4500 мАч',
-                                              os_version='Android 6.0',
-                                              weight='170 грамм',
-                                              size='153x75x8.2 мм',
-                                              description='Опиши меня красиво',
-                                              price='40000.00',
-                                              stock=5,
-                                              in_stock=False,
-                                              )
+        ph_prod = PhoneProduct.objects.create(
+            sku=107687,
+            manufacturer=self.manufacturer,
+            phone_model='LG G5',
+            chipset='Snapdragon 810',
+            phone_RAM_memory='3 ГБ ОЗУ',
+            phone_memory='64 ГБ встроенная память',
+            size_screen='5.5 дюйма FullHD IPS',
+            camera='18/6 МП',
+            battery='4500 мАч',
+            os_version='Android 6.0',
+            weight='170 грамм',
+            size='153x75x8.2 мм',
+            description='Опиши меня красиво',
+            price='40000.00',
+            stock=5,
+            in_stock=False,
+        )
         assert ph_prod.pk is not None
 
     # тесты с использованием фикстур
@@ -64,12 +65,13 @@ class TestPhoneProduct(TestCase):
 
 class TestCustomer(TestCase):
     def test_customer_creation(self):
-        customer = Customer.objects.create(first_name='Alice',
-                                           last_name='Demidova',
-                                           email='wonderland@yandex.ru',
-                                           phone_number='+79103478976',
-                                           address='In the galaxy far far away'
-                                           )
+        customer = Customer.objects.create(
+            first_name='Alice',
+            last_name='Demidova',
+            email='wonderland@yandex.ru',
+            phone_number='+79103478976',
+            address='In the galaxy far far away'
+        )
         assert customer.pk is not None
 
     # тесты с использованием фикстур
@@ -84,38 +86,41 @@ class TestOrder(TestCase):
     @classmethod
     def setUp(cls):
         cls.order_number = '00004567'
-        cls.customer = Customer.objects.create(first_name='Alice',
-                                               last_name='Demidova',
-                                               email='wonderland@yandex.ru',
-                                               phone_number='+79103478976',
-                                               address='In the galaxy far far away'
-                                               )
-        cls.product = PhoneProduct.objects.create(sku=107687,
-                                                  manufacturer=Manufacturer.objects.create(manufacturer_name='LG'),
-                                                  phone_model='LG G5',
-                                                  chipset='Snapdragon 810',
-                                                  phone_RAM_memory='3 ГБ ОЗУ',
-                                                  phone_memory='64 ГБ встроенная память',
-                                                  size_screen='5.5 дюйма FullHD IPS',
-                                                  camera='18/6 МП',
-                                                  battery='4500 мАч',
-                                                  os_version='Andoroid 6.0',
-                                                  weight='170 грамм',
-                                                  size='153x75x8.2 мм',
-                                                  description='Опиши меня красиво',
-                                                  price='40000.00',
-                                                  stock=5,
-                                                  in_stock=False,
-                                                  )
+        cls.customer = Customer.objects.create(
+            first_name='Alice',
+            last_name='Demidova',
+            email='wonderland@yandex.ru',
+            phone_number='+79103478976',
+            address='In the galaxy far far away'
+        )
+        cls.product = PhoneProduct.objects.create(
+            sku=107687,
+            manufacturer=Manufacturer.objects.create(manufacturer_name='LG'),
+            phone_model='LG G5',
+            chipset='Snapdragon 810',
+            phone_RAM_memory='3 ГБ ОЗУ',
+            phone_memory='64 ГБ встроенная память',
+            size_screen='5.5 дюйма FullHD IPS',
+            camera='18/6 МП',
+            battery='4500 мАч',
+            os_version='Andoroid 6.0',
+            weight='170 грамм',
+            size='153x75x8.2 мм',
+            description='Опиши меня красиво',
+            price='40000.00',
+            stock=5,
+            in_stock=False,
+        )
         cls.ordered_datetime = "2016-11-24T08:25:06Z"
         cls.comment = 'Monty Python'
 
     def test_order_creation(self):
-        order = Order.objects.create(order_number=self.order_number,
-                                     customer=self.customer,
-                                     product=self.product,
-                                     ordered_datetime=self.ordered_datetime,
-                                     comment=self.comment)
+        order = Order.objects.create(
+            order_number=self.order_number,
+            customer=self.customer,
+            product=self.product,
+            ordered_datetime=self.ordered_datetime,
+            comment=self.comment)
         assert order.pk is not None
 
     # тесты с использованием фикстур
