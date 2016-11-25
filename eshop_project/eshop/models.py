@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 from djmoney.models.fields import MoneyField
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
-from django.utils.encoding import python_2_unicode_compatible  # поддержим python 2
+# поддержим python 2
+from django.utils.encoding import python_2_unicode_compatible
 
 
 __author__ = 'adchizhov'
