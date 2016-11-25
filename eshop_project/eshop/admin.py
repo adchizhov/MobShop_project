@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.contrib import admin
-from .models import *
+from .models import Manufacturer, PhoneProduct, Customer, Order
 # Register your models here.
 
 class CustomManufacturer(admin.ModelAdmin):

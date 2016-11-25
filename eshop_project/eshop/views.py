@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+
+# from django.http import HttpResponse, HttpResponseRedirect, Http404
+# from django.utils import timezone
+# from django.views import generic
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect, Http404
-from django.utils import timezone
 import logging
-#from django.views import generic
-from .forms import *
-from .models import *
+from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
+from .models import Manufacturer, PhoneProduct, Customer, Order
 
 
 logger = logging.getLogger(__name__)
@@ -18,8 +19,9 @@ logger.error("All is broken")
 
 def index_page(request):
     if request.method == "GET":
-        c = {'ManufacturerForm': ManufacturerForm} # TODO что-то бредни надо подумать
+        c = {'ManufacturerForm': ManufacturerForm}  # TODO что-то бредни надо подумать
         return render(request, 'eshop/index.html', c)
+
 
 def show_manufacturers(request):
     if request.method == "GET":

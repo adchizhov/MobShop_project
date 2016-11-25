@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-import datetime
-import moneyed
+
 from djmoney.models.fields import MoneyField
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
@@ -60,13 +59,13 @@ class Customer(models.Model):
         verbose_name_plural = 'Клиенты'
 
     def __str__(self):
-        return ('Клиент: {} {}'.format(self.first_name, self.last_name))
+        return 'Клиент: {} {}'.format(self.first_name, self.last_name)
 
 
 @python_2_unicode_compatible
 class Order(models.Model):
     # стойкое ощущение что здесь многого не хватает
-    order_number = models.CharField(max_length=8, default='00000001') # TODO
+    order_number = models.CharField(max_length=8, default='00000001')  # TODO
     customer = models.ForeignKey('Customer', on_delete=models.CASCADE)
     product = models.ForeignKey('PhoneProduct')
     ordered_datetime = models.DateTimeField()
@@ -77,6 +76,6 @@ class Order(models.Model):
         verbose_name_plural = 'Заказы'
 
     def __str__(self):
-        return ('Клиент: {} заказал {} от {} с комментарием {}'.format(
+        return 'Клиент: {} заказал {} от {} с комментарием {}'.format(
             self.customer, self.product, self.ordered_datetime, self.comment
-        ))
+        )
