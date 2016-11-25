@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
+
 from __future__ import unicode_literals
 from django.contrib import admin
 from .models import Manufacturer, PhoneProduct, Customer, Order
+
+__author__ = 'adchizhov'
 # Register your models here.
+
 
 class CustomManufacturer(admin.ModelAdmin):
     list_display = ('manufacturer_name',)

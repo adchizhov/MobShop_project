@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
+
 from __future__ import unicode_literals
 from django import forms
 from .models import Manufacturer, PhoneProduct, Customer, Order
+
+__author__ = 'adchizhov'
 
 
 class ManufacturerForm(forms.ModelForm):

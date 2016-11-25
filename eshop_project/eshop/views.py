@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 # from django.http import HttpResponse, HttpResponseRedirect, Http404
 # from django.utils import timezone
 # from django.views import generic
@@ -8,6 +7,8 @@ from django.shortcuts import render, get_object_or_404
 import logging
 from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
 from .models import Manufacturer, PhoneProduct, Customer, Order
+
+__author__ = 'adchizhov'
 
 
 logger = logging.getLogger(__name__)

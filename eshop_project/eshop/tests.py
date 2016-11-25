@@ -1,6 +1,10 @@
+# -*- coding: utf-8 -*-
+
 from __future__ import unicode_literals
 from django.test import TestCase
 from .models import Manufacturer, PhoneProduct, Customer, Order
+
+__author__ = 'adchizhov'
 
 
 # Create your tests here.
