@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
@@ -26,7 +25,6 @@ SECRET_KEY = '_m$xf9qs5fq2_qayzwih0mha8=xm6b$lx)x@1+4kgq=-%*#s)('
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -42,6 +40,7 @@ INSTALLED_APPS = [
     'djmoney',
     # my apps
     'eshop',
+    'eshop_auth',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +73,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'eshop_project.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
@@ -174,7 +172,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
@@ -188,7 +185,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
@@ -199,3 +195,13 @@ MEDIA_URL = '/media/'
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static')
 # ]
+
+
+# Authorization
+
+AUTH_USER_MODEL = 'eshop_auth.CustomUser'
+LOGIN_URL = 'eshop/login'
+LOGIN_REDIRECT_URL = 'eshop/manufacturers'
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend'
+]
