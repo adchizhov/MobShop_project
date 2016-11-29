@@ -14,6 +14,7 @@ __author__ = 'adchizhov'
 @python_2_unicode_compatible
 class Manufacturer(models.Model):
     manufacturer_name = models.CharField(max_length=50, unique=True, blank=True, help_text='Пример: Meizu')
+    manufacturer_info = models.CharField(max_length=3000)
 
     class Meta:
         verbose_name = 'Производитель'
@@ -26,7 +27,7 @@ class Manufacturer(models.Model):
 @python_2_unicode_compatible
 class PhoneProduct(models.Model):
     sku = models.CharField(max_length=15, help_text='Пример: 107654')
-    manufacturer = models.ForeignKey('Manufacturer')
+    manufacturer = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
     phone_model = models.CharField(max_length=30, help_text='Пример: Meizu U20')
     chipset = models.CharField(max_length=60, help_text='Пример: MediaTek Helio P10')
     phone_RAM_memory = models.CharField(max_length=40, help_text='Пример: 2/3 ГБ ОЗУ')
@@ -70,7 +71,7 @@ class Customer(models.Model):
 class Order(models.Model):
     # стойкое ощущение что здесь многого не хватает
     order_number = models.CharField(max_length=8, default='00000001')  # TODO
-    customer = models.ForeignKey('Customer', on_delete=models.CASCADE)
+    customer = models.ForeignKey('Customer')
     product = models.ForeignKey('PhoneProduct')
     ordered_datetime = models.DateTimeField()
     comment = models.CharField(max_length=140, blank=True)

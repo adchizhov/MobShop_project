@@ -11,7 +11,7 @@ __author__ = 'adchizhov'
 
 
 class CustomManufacturer(admin.ModelAdmin):
-    list_display = ('manufacturer_name',)
+    list_display = ('manufacturer_name', 'manufacturer_info')
     search_fields = ('manufacturer_name',)
 
 

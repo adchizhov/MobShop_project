@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Register page</title>
-</head>
-<body>
+{% extends 'eshop/_base.html' %}
 
+
+{% block content %}
 <h1>Register, please!</h1>
 
 <form action="{% url 'eshop_auth:register' %}" method="POST">
@@ -13,6 +9,4 @@
     {{ form.as_p }}
     <input type="submit" value="Submit">
 </form>
-
-</body>
-</html>
+{% endblock %}

@@ -1,11 +1,12 @@
 {% extends 'eshop/_base.html' %}
 {% block content %}
-    <h4 align="center">List of manufacturers</h4>
+    <h4 align="center">List of all manufacturers</h4>
+    <p align="center">Total manufacturers in database: {{ count_manufacturers }}</p>
     <div class="center">
-    {% if manufacturers %}
+    {% if all_manufacturers %}
         <ul>
-            {% for manu in manufacturers %}
-                <li>{{ manu.manufacturer_name }}</li>
+            {% for manu in all_manufacturers %}
+                <li><a href="{% url 'eshop:manufacturer_detail' manu.id %}">{{ manu.manufacturer_name }}</a></li>
                 {% endfor %}
             </ul>
         {% else %}

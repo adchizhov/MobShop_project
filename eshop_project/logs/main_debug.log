@@ -1149,3 +1149,1942 @@ ERROR:eshop.views: All is broken (2016-11-28 16:07:23; views.py:18)
 DEBUG:eshop.views: blah blah blah (2016-11-28 16:07:57; views.py:16)
 WARNING:eshop.views: It is a warning (2016-11-28 16:07:57; views.py:17)
 ERROR:eshop.views: All is broken (2016-11-28 16:07:57; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 08:55:17; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 08:55:17; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 08:55:17; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 08:55:35; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 08:55:35; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 08:55:35; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 08:55:51; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 08:55:51; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 08:55:51; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:00:25; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:00:25; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:00:25; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:02:36; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:02:36; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:02:36; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:02:50; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:02:50; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:02:50; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 09:03:23; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 09:03:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 666 (2016-11-29 09:03:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 09:03:28; basehttp.py:131)
+INFO:django.server: "GET /admin/ HTTP/1.1" 302 0 (2016-11-29 09:03:35; basehttp.py:131)
+INFO:django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652 (2016-11-29 09:03:37; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 15937 (2016-11-29 09:03:37; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 1203 (2016-11-29 09:03:37; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 (2016-11-29 09:03:37; basehttp.py:131)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348 (2016-11-29 09:03:38; basehttp.py:131)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304 (2016-11-29 09:03:38; basehttp.py:131)
+WARNING:django.server: "GET /favicon.ico HTTP/1.1" 404 2157 (2016-11-29 09:03:38; basehttp.py:131)
+INFO:django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 (2016-11-29 09:03:46; basehttp.py:131)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 5009 (2016-11-29 09:03:46; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434 (2016-11-29 09:03:46; basehttp.py:131)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564 (2016-11-29 09:03:46; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 (2016-11-29 09:03:47; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 (2016-11-29 09:03:47; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop_auth/customuser/ HTTP/1.1" 200 4196 (2016-11-29 09:03:50; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117 (2016-11-29 09:03:50; basehttp.py:131)
+INFO:django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363 (2016-11-29 09:03:50; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 09:03:50; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331 (2016-11-29 09:03:51; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop_auth/customuser/1/change/ HTTP/1.1" 200 13730 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/forms.css HTTP/1.1" 200 7750 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 200 698 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677 (2016-11-29 09:03:53; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086 (2016-11-29 09:03:54; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop_auth/customuser/ HTTP/1.1" 200 4196 (2016-11-29 09:03:59; basehttp.py:131)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 5009 (2016-11-29 09:04:01; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:05:07; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:05:07; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:05:07; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 09:05:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 09:05:29; basehttp.py:131)
+INFO:django.server: "GET /eshop/login/ HTTP/1.1" 200 649 (2016-11-29 09:05:34; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout HTTP/1.1" 301 0 (2016-11-29 09:05:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/ HTTP/1.1" 302 0 (2016-11-29 09:05:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:50; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:05:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/login/ HTTP/1.1" 200 649 (2016-11-29 09:05:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/ HTTP/1.1" 302 0 (2016-11-29 09:06:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:06:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:06:30; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:09:00; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:09:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:09:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:10:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:11:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/logout/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/eshop/login HTTP/1.1" 302 0 (2016-11-29 09:11:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 09:11:17; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:11:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 970 (2016-11-29 09:12:56; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/register/ (2016-11-29 09:13:28; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "C:\Python35\DENV35\lib\site-packages\django\template\response.py", line 84, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\response.py", line 66, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 48, in select_template
+    return engine.get_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 519, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 537, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends '_base.html'> must be the first tag in the template.
+ERROR:django.server: "GET /eshop/register/ HTTP/1.1" 500 118150 (2016-11-29 09:13:28; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/register/ (2016-11-29 09:13:48; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 152, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 149, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 129, in find_template
+    template_name, skip=history,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: _base.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "C:\Python35\DENV35\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 68, in render
+    reraise(exc, self.backend)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 89, in reraise
+    six.reraise(exc.__class__, new, sys.exc_info()[2])
+  File "C:\Python35\DENV35\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 152, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 149, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 129, in find_template
+    template_name, skip=history,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: _base.html
+ERROR:django.server: "GET /eshop/register/ HTTP/1.1" 500 163508 (2016-11-29 09:13:49; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 1270 (2016-11-29 09:14:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/register/ HTTP/1.1" 200 1270 (2016-11-29 09:14:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/login/ HTTP/1.1" 200 951 (2016-11-29 09:14:54; basehttp.py:131)
+INFO:django.server: "POST /eshop/login/ HTTP/1.1" 302 0 (2016-11-29 09:14:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/login/eshop/manufacturers HTTP/1.1" 200 951 (2016-11-29 09:14:56; basehttp.py:131)
+INFO:django.server: "POST /eshop/login/ HTTP/1.1" 302 0 (2016-11-29 09:15:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/login/eshop/manufacturers HTTP/1.1" 200 951 (2016-11-29 09:15:06; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:35:07; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:35:07; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:35:07; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:36:32; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:36:32; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:36:32; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:36:48; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:36:48; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:36:48; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:37:00; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:37:00; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:37:00; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 09:38:26; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 09:38:26; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 09:38:26; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:00:01; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:00:01; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:00:01; views.py:18)
+WARNING:django.server: "GET /eshop/admin HTTP/1.1" 404 2835 (2016-11-29 10:00:09; basehttp.py:131)
+INFO:django.server: "GET /admin HTTP/1.1" 301 0 (2016-11-29 10:00:14; basehttp.py:131)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 5009 (2016-11-29 10:00:15; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 4927 (2016-11-29 10:00:18; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 10:00:18; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458 (2016-11-29 10:00:18; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:53:50; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:53:50; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:53:50; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 10:54:00; basehttp.py:131)
+INFO:django.server: "GET /eshop/2 HTTP/1.1" 301 0 (2016-11-29 10:54:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/2/ HTTP/1.1" 200 60 (2016-11-29 10:54:01; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:55:41; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:55:41; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:55:41; views.py:18)
+INFO:django.server: "GET /eshop/2/ HTTP/1.1" 200 59 (2016-11-29 10:55:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/2/ HTTP/1.1" 200 59 (2016-11-29 10:55:47; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:56:00; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:56:00; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:56:00; views.py:18)
+INFO:django.server: "GET /eshop/2/ HTTP/1.1" 200 36 (2016-11-29 10:56:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/3/ HTTP/1.1" 200 36 (2016-11-29 10:56:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/4/ HTTP/1.1" 200 36 (2016-11-29 10:56:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/1/ HTTP/1.1" 200 36 (2016-11-29 10:56:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/1/ HTTP/1.1" 200 36 (2016-11-29 10:56:49; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 10:56:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 10:56:57; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 10:56:58; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:57:21; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:57:21; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:57:21; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 10:57:51; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 10:57:51; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 10:57:51; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 11:01:45; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 11:01:45; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 11:01:45; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/1 HTTP/1.1" 301 0 (2016-11-29 11:01:48; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 11:01:48; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2 HTTP/1.1" 301 0 (2016-11-29 11:01:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 36 (2016-11-29 11:01:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3 HTTP/1.1" 301 0 (2016-11-29 11:01:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 36 (2016-11-29 11:01:54; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 11:50:24; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 11:50:24; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 11:50:24; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 11:51:18; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 11:51:19; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 11:51:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 11:51:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 11:51:57; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 11:51:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 666 (2016-11-29 11:51:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 666 (2016-11-29 11:52:12; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 11:52:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 666 (2016-11-29 11:52:13; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 11:52:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 666 (2016-11-29 11:52:19; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 11:52:31; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 11:52:31; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 11:52:31; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 11:52:33; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 11:52:33; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 11:59:49; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 11:59:49; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 11:59:49; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 11:59:56; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 11:59:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 11:59:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 12:00:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:00:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 745 (2016-11-29 12:00:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 12:00:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 12:06:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:06:28; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:06:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 811 (2016-11-29 12:06:29; basehttp.py:131)
+WARNING:django.server: "GET /manufacturers HTTP/1.1" 404 2163 (2016-11-29 12:06:30; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 819 (2016-11-29 12:07:02; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:07:03; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/eshop/manufacturers/1/ HTTP/1.1" 404 3147 (2016-11-29 12:07:04; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/eshop/manufacturers/1/ HTTP/1.1" 404 3147 (2016-11-29 12:07:30; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/eshop/manufacturers/1/ HTTP/1.1" 404 3147 (2016-11-29 12:07:33; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 779 (2016-11-29 12:07:37; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 12:07:38; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 36 (2016-11-29 12:07:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 779 (2016-11-29 12:09:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 12:09:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 36 (2016-11-29 12:09:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:09:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 779 (2016-11-29 12:09:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 36 (2016-11-29 12:09:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 36 (2016-11-29 12:09:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:09:47; basehttp.py:131)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 5009 (2016-11-29 12:10:03; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 4927 (2016-11-29 12:10:08; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:10:08; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/add/ HTTP/1.1" 200 4037 (2016-11-29 12:10:16; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:10:16; basehttp.py:131)
+INFO:django.server: "POST /admin/eshop/manufacturer/add/ HTTP/1.1" 302 0 (2016-11-29 12:10:24; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 5394 (2016-11-29 12:10:24; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:10:25; basehttp.py:131)
+INFO:django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436 (2016-11-29 12:10:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:10:27; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:10:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 844 (2016-11-29 12:10:29; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 36 (2016-11-29 12:10:31; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 36 (2016-11-29 12:13:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:14:01; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:14:01; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:20:01; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:20:01; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:20:01; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:20:36; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:20:36; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:20:36; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:21:18; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:21:18; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:21:18; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:24:18; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:24:18; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:24:18; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:24:42; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:24:42; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:24:42; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:25:31; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:25:31; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:25:31; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:26:51; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:26:51; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:26:51; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:27:35; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:27:35; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:27:35; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:27:44; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:27:44; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:27:44; views.py:18)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 5488 (2016-11-29 12:27:49; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:27:49; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/3/change/ HTTP/1.1" 200 4843 (2016-11-29 12:27:53; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:27:53; basehttp.py:131)
+INFO:django.server: "POST /admin/eshop/manufacturer/3/change/ HTTP/1.1" 302 0 (2016-11-29 12:28:59; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 6222 (2016-11-29 12:28:59; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:29:00; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/2/change/ HTTP/1.1" 200 4847 (2016-11-29 12:29:32; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:29:32; basehttp.py:131)
+INFO:django.server: "POST /admin/eshop/manufacturer/2/change/ HTTP/1.1" 302 0 (2016-11-29 12:29:37; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 7262 (2016-11-29 12:29:37; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:29:37; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/1/change/ HTTP/1.1" 200 4845 (2016-11-29 12:30:04; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:30:04; basehttp.py:131)
+INFO:django.server: "POST /admin/eshop/manufacturer/1/change/ HTTP/1.1" 302 0 (2016-11-29 12:30:11; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 7883 (2016-11-29 12:30:12; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:30:12; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/ HTTP/1.1" 200 3492 (2016-11-29 12:32:16; basehttp.py:131)
+INFO:django.server: "GET /admin/eshop/manufacturer/ HTTP/1.1" 200 7648 (2016-11-29 12:32:17; basehttp.py:131)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3189 (2016-11-29 12:32:18; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:32:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:32:32; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:32:32; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:32:34; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:32:36; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:32:37; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:32:39; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:32:39; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:32:40; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:32:40; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:33:02; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:33:02; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:33:02; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:33:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 670 (2016-11-29 12:33:10; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:38:33; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:38:33; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:38:33; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/1/ (2016-11-29 12:38:44; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 41, in manufacturer_detail
+    return render(request, 'eshop/manufacturer_detail.html', {'manufacturer_info': manufacturer_info})
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Manufacturer' object is not iterable
+ERROR:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 500 146612 (2016-11-29 12:38:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:39:00; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/1/ (2016-11-29 12:39:01; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 41, in manufacturer_detail
+    return render(request, 'eshop/manufacturer_detail.html', {'manufacturer_info': manufacturer_info})
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Manufacturer' object is not iterable
+ERROR:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 500 146477 (2016-11-29 12:39:02; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:41:19; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:41:19; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:41:19; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/1/ (2016-11-29 12:41:22; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 41, in manufacturer_detail
+    return render(request, 'eshop/manufacturer_detail.html', {'manufacturer_info': manufacturer_detail})
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 242, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 603, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 703, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' manufacturer_detail' from 'if manufacturer_detail'
+ERROR:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 500 155134 (2016-11-29 12:41:24; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/1/ (2016-11-29 12:42:10; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 41, in manufacturer_detail
+    return render(request, 'eshop/manufacturer_detail.html', {'manufacturer_info': manufacturer_detail})
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 242, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 500 151304 (2016-11-29 12:42:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 615 (2016-11-29 12:42:33; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:42:33; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:42:35; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:42:36; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 615 (2016-11-29 12:42:37; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:42:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:42:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 615 (2016-11-29 12:42:48; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:42:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:42:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 615 (2016-11-29 12:42:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:43:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:43:23; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:43:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:43:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 615 (2016-11-29 12:43:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:43:27; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:43:59; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:43:59; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:43:59; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:44:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 569 (2016-11-29 12:44:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:44:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:44:51; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:44:51; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:44:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1196 (2016-11-29 12:44:54; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1181 (2016-11-29 12:45:13; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:45:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:45:21; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:45:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1597 (2016-11-29 12:45:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:45:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:45:27; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1059 (2016-11-29 12:45:29; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:45:31; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:45:36; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1059 (2016-11-29 12:45:38; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/4/ HTTP/1.1" 404 1749 (2016-11-29 12:45:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:46:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:46:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1059 (2016-11-29 12:46:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:46:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:46:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1597 (2016-11-29 12:46:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:46:09; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:56:10; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:56:10; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:56:10; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 12:56:36; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 12:56:36; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 12:56:36; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:56:49; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:56:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1181 (2016-11-29 12:56:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:56:57; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:56:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1597 (2016-11-29 12:56:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:57:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:57:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1059 (2016-11-29 12:57:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:57:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:59:30; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 12:59:30; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:59:31; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1207 (2016-11-29 12:59:33; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 12:59:34; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 12:59:35; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1623 (2016-11-29 12:59:36; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1623 (2016-11-29 13:00:08; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:00:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1623 (2016-11-29 13:01:24; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:01:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:01:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 13:01:27; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1207 (2016-11-29 13:01:29; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:01:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 13:02:00; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1207 (2016-11-29 13:02:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1207 (2016-11-29 13:02:04; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:02:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:02:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 13:02:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1207 (2016-11-29 13:02:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:04:17; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 13:04:19; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 13:04:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:04:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 848 (2016-11-29 13:04:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 13:04:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:04:30; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:16:05; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/images/Gremlin.jpg HTTP/1.1" 304 0 (2016-11-29 13:16:06; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:16:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 864 (2016-11-29 13:16:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 864 (2016-11-29 13:16:16; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:16:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 864 (2016-11-29 13:16:17; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:16:18; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 912 (2016-11-29 13:19:31; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:19:31; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 912 (2016-11-29 13:20:27; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:20:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 912 (2016-11-29 13:24:04; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:24:04; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 912 (2016-11-29 13:24:08; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 13:28:20; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 13:28:20; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 13:28:20; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 913 (2016-11-29 13:28:23; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:28:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 909 (2016-11-29 13:30:52; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 13:30:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 13:30:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:31:00; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 909 (2016-11-29 13:34:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 13:34:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:34:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 909 (2016-11-29 13:42:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 13:42:21; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 13:53:19; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 909 (2016-11-29 13:53:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 13:53:22; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:07:38; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:07:38; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:07:38; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:07:44; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:07:45; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175201 (2016-11-29 14:07:52; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:09:59; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:09:59; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:09:59; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:09:59; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175336 (2016-11-29 14:10:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:10:06; basehttp.py:131)
+ERROR:django.server: "GET /eshop/ HTTP/1.1" 500 59 (2016-11-29 14:10:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:10:06; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:10:08; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175348 (2016-11-29 14:10:08; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:11:39; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:11:39; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:11:39; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:13:25; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 200 256 (2016-11-29 14:13:25; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:13:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:13:33; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:13:34; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175348 (2016-11-29 14:13:35; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:15:07; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:15:07; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:15:07; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:15:09; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175483 (2016-11-29 14:15:09; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:15:37; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:15:37; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:15:37; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:15:38; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175483 (2016-11-29 14:15:39; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:15:41; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175483 (2016-11-29 14:15:41; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:16:01; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:16:01; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:16:01; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:16:02; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175483 (2016-11-29 14:16:03; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:16:36; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:16:36; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:16:36; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:16:38; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:16:38; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:16:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:16:41; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:16:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:16:44; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:16:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:18:11; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:18:11; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:18:12; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175348 (2016-11-29 14:18:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:20:34; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 14:20:34; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:20:34; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:20:35; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturers' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175264 (2016-11-29 14:20:35; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:22:39; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:22:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:22:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:22:42; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:24:21; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:24:21; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:24:21; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:24:34; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:24:34; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:24:34; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:24:34; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:24:35; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 404 3086 (2016-11-29 14:24:36; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:25:46; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175483 (2016-11-29 14:25:47; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:26:51; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175525 (2016-11-29 14:26:51; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:28:12; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:28:12; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:28:12; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:28:14; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:28:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:28:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 666 (2016-11-29 14:29:18; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 14:29:18; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 666 (2016-11-29 14:29:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 666 (2016-11-29 14:29:22; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:29:27; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175200 (2016-11-29 14:29:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:30:37; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:30:37; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:30:38; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:30:39; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:30:40; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:30:42; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:30:43; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 14:30:45; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:30:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:30:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:32:21; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:32:21; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 14:32:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:32:23; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:32:24; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:32:26; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:32:27; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:32:28; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:32:29; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:32:30; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:32:57; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:32:59; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175348 (2016-11-29 14:32:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:34:45; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:34:46; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:34:47; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:34:48; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:34:49; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:34:50; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:36:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 14:36:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:36:11; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:36:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:36:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:36:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 906 (2016-11-29 14:36:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:36:16; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:36:18; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:38:17; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 14:38:17; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:38:17; basehttp.py:131)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:38:18; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '()' and keyword arguments '{'pk': 1}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175487 (2016-11-29 14:38:19; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:46:04; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:46:04; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:46:04; views.py:18)
+ERROR:django.request: Internal Server Error: /eshop/manufacturers/ (2016-11-29 14:46:09; exception.py:124)
+Traceback (most recent call last):
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Пользователь\Desktop\From GIT\tceh_mainproject\eshop_project\eshop\views.py", line 32, in show_manufacturers
+    return render(request, 'eshop/manufacturers.html', c)
+  File "C:\Python35\DENV35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python35\DENV35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python35\DENV35\lib\site-packages\django\template\defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python35\DENV35\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+django.urls.exceptions.NoReverseMatch: Reverse for 'manufacturer_detail' with arguments '(1,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+ERROR:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 500 175335 (2016-11-29 14:46:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:47:49; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:47:52; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 14:47:52; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:47:53; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:47:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 14:47:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:47:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:47:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:48:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:48:18; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:48:49; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:48:49; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:48:49; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:48:55; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:48:57; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:48:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:49:56; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:49:58; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:49:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:50:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:50:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:50:07; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:53:49; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:53:49; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:53:49; views.py:18)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:53:58; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:53:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:53:59; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:54:01; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:54:02; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:54:03; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/4 HTTP/1.1" 301 0 (2016-11-29 14:54:06; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/4/ HTTP/1.1" 404 1749 (2016-11-29 14:54:06; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:57:01; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:57:01; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:57:01; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:57:05; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/favicon/favicon%20(2).ico HTTP/1.1" 200 318 (2016-11-29 14:57:05; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 14:57:06; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:57:07; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:57:08; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 14:57:09; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:57:10; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 14:57:12; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 14:57:13; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 14:57:14; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 14:59:25; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 14:59:25; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 14:59:25; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 15:00:02; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 15:00:02; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 15:00:02; views.py:18)
+DEBUG:eshop.views: blah blah blah (2016-11-29 15:01:08; views.py:16)
+WARNING:eshop.views: It is a warning (2016-11-29 15:01:08; views.py:17)
+ERROR:eshop.views: All is broken (2016-11-29 15:01:08; views.py:18)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 15:01:14; basehttp.py:131)
+INFO:django.server: "GET /static/eshop/style.css HTTP/1.1" 304 0 (2016-11-29 15:01:14; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/1/ HTTP/1.1" 200 1225 (2016-11-29 15:01:15; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 15:01:17; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 15:01:18; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/3/ HTTP/1.1" 200 1102 (2016-11-29 15:01:19; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 15:01:19; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 15:01:20; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/2/ HTTP/1.1" 200 1642 (2016-11-29 15:01:21; basehttp.py:131)
+INFO:django.server: "GET /eshop/ HTTP/1.1" 200 679 (2016-11-29 15:01:22; basehttp.py:131)
+INFO:django.server: "GET /eshop/manufacturers/ HTTP/1.1" 200 972 (2016-11-29 15:01:23; basehttp.py:131)
+WARNING:django.server: "GET /eshop/manufacturers/4/ HTTP/1.1" 404 1761 (2016-11-29 15:01:27; basehttp.py:131)
+DEBUG:eshop.views: blah blah blah (2016-11-29 15:02:02; views.py:15)
+WARNING:eshop.views: It is a warning (2016-11-29 15:02:02; views.py:16)
+ERROR:eshop.views: All is broken (2016-11-29 15:02:02; views.py:17)
+DEBUG:eshop.views: blah blah blah (2016-11-29 15:02:30; views.py:15)
+WARNING:eshop.views: It is a warning (2016-11-29 15:02:30; views.py:16)
+ERROR:eshop.views: All is broken (2016-11-29 15:02:30; views.py:17)
