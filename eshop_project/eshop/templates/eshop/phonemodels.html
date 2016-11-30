@@ -1,0 +1,17 @@
+{% extends 'eshop/_base.html' %}
+{% block content %}
+    <h4 align="center">Список моделей телефонов</h4>
+    <p align="center">Всего моделей телефонов в базе данных: {{ count_phonemodels }}</p>
+    <div class="center">
+    {% if all_phonemodels %}
+        <ul>
+            {% for modelphone in all_phonemodels %}
+                <li><a href="{% url 'eshop:phonemodel_detail' modelphone.id %}">{{ modelphone.phone_model }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <strong>Модели телефонов отсутствуют!</strong>
+    {% endif %}
+        <p align="center"><a href="/eshop/">Вернуться на главную страницу</a></p>
+    </div>
+{% endblock %}

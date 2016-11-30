@@ -5,16 +5,23 @@
 <head>
     <meta charset="UTF-8">
     <title>MobShop</title>
-    <link rel="shortcut icon" type="image/png" href="{% static 'eshop/favicon/favicon (2).ico' %}">
-    <link rel="stylesheet" href="{% static 'eshop/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'eshop/favicon/gremlin.ico' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'eshop/style.css' %}"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<h2 class="welcome" align="center">Welcome to MobShop. We sell, yoy buy!</h2>
+<h2 class="welcome" align="center">Добро пожаловать! Мы продаем, вы покупаете!</h2>
 {% block content %}
 {% endblock %}
 
 <footer>
-<p align="center">Created by: Alexander Chizhov</p>
+    <div style="text-align:center">
+    <address>
+        Разработчик: <a href="mailto:adchizhov@outlook.com">Александр Чижов</a><br>
+        Мой Github:<br>
+        <a href="https://github.com/adchizhov">https://github.com/adchizhov</a><br>
+    </address>
+    </div>
 </footer>
 </body>
 </html>

@@ -1,0 +1,13 @@
+{% extends 'eshop/_base.html' %}
+{% block content %}
+    <div>
+    {% if phone_detail %}
+        {% for field in phone_detail %}
+            <li><b>{{ field.label }}:</b> {{ field.data }}</li>
+        {% endfor %}
+    {% else %}
+            <strong>Модель телефона отсутсвует!</strong>
+    {% endif %}
+        <p align="center"><a href="/eshop/">Вернуться на главную страницу</a></p>
+    </div>
+{% endblock %}

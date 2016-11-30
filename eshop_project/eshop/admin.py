@@ -13,6 +13,7 @@ __author__ = 'adchizhov'
 class CustomManufacturer(admin.ModelAdmin):
     list_display = ('manufacturer_name', 'manufacturer_info')
     search_fields = ('manufacturer_name',)
+    list_editable = ('manufacturer_info',)
 
 
 class CustomPhoneProduct(admin.ModelAdmin):

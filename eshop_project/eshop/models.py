@@ -26,22 +26,84 @@ class Manufacturer(models.Model):
 
 @python_2_unicode_compatible
 class PhoneProduct(models.Model):
-    sku = models.CharField(max_length=15, help_text='Пример: 107654')
-    manufacturer = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
-    phone_model = models.CharField(max_length=30, help_text='Пример: Meizu U20')
-    chipset = models.CharField(max_length=60, help_text='Пример: MediaTek Helio P10')
-    phone_RAM_memory = models.CharField(max_length=40, help_text='Пример: 2/3 ГБ ОЗУ')
-    phone_memory = models.CharField(max_length=40, help_text='Пример: 16/32 ГБ встроенная память')
-    size_screen = models.CharField(max_length=40, help_text='Пример: 5.5 дюйма FullHD IPS')
-    camera = models.CharField(max_length=40, help_text='Пример: 13/5 МП')
-    battery = models.CharField(max_length=30, help_text='Пример: 3260 мАч')
-    os_version = models.CharField(max_length=50, help_text='Пример: Google Android 6.0, Flyme 5.2.4.0G')
-    weight = models.CharField(max_length=20, help_text='Пример: 158 грамм')
-    size = models.CharField(max_length=40, help_text='Пример: 153x75x8.2 мм')
-    description = models.CharField(max_length=3000, help_text='Пример: Опиши меня красиво')
-    price = MoneyField(max_digits=100, decimal_places=2, default_currency='RUB')
-    stock = models.PositiveSmallIntegerField(default=10)
-    in_stock = models.BooleanField(default=True)
+    sku = models.CharField(
+        max_length=15,
+        help_text='Пример: 107654',
+        verbose_name="Артикул")
+    manufacturer = models.ForeignKey(
+        'Manufacturer',
+        on_delete=models.CASCADE,
+        to_field='manufacturer_name',
+        verbose_name="Производитель"
+    )
+    phone_model = models.CharField(
+        max_length=30,
+        help_text='Пример: Meizu U20',
+        verbose_name='Модель телефона'
+    )
+    chipset = models.CharField(
+        max_length=60,
+        help_text='Пример: MediaTek Helio P10',
+        verbose_name='Чипсет'
+    )
+    phone_RAM_memory = models.CharField(
+        max_length=40,
+        help_text='Пример: 2/3 ГБ ОЗУ',
+        verbose_name='Оперативная память'
+    )
+    phone_memory = models.CharField(
+        max_length=40,
+        help_text='Пример: 16/32 ГБ встроенная память',
+        verbose_name='Постоянная память'
+    )
+    size_screen = models.CharField(
+        max_length=40,
+        help_text='Пример: 5.5 дюйма FullHD IPS',
+        verbose_name='Размер экрана'
+    )
+    camera = models.CharField(
+        max_length=40,
+        help_text='Пример: 13/5 МП',
+        verbose_name='Камера'
+    )
+    battery = models.CharField(
+        max_length=30,
+        help_text='Пример: 3260 мАч',
+        verbose_name='Емкость батареи'
+    )
+    os_version = models.CharField(
+        max_length=50,
+        help_text='Пример: Google Android 6.0, Flyme 5.2.4.0G',
+        verbose_name='Операционная система'
+    )
+    weight = models.CharField(
+        max_length=20,
+        help_text='Пример: 158 грамм',
+        verbose_name='Вес'
+    )
+    size = models.CharField(
+        max_length=40,
+        help_text='Пример: 153x75x8.2 мм',
+        verbose_name='Размер'
+    )
+    description = models.CharField(
+        max_length=3000,
+        help_text='Пример: Опиши меня красиво',
+        verbose_name='Описание'
+    )
+    price = MoneyField(
+        max_digits=100,
+        decimal_places=2, default_currency='RUB',
+        verbose_name='Цена'
+    )
+    stock = models.PositiveSmallIntegerField(
+        default=10,
+        verbose_name='Осталось'
+    )
+    in_stock = models.BooleanField(
+        default=True,
+        verbose_name='Наличие'
+    )
 
     class Meta:
         verbose_name = 'Модель телефона'

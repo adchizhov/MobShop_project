@@ -1,7 +1,7 @@
 {% extends 'eshop/_base.html' %}
 {% block content %}
-    <h4 align="center">List of all manufacturers</h4>
-    <p align="center">Total manufacturers in database: {{ count_manufacturers }}</p>
+    <h4 align="center">Представленные производители</h4>
+    <p align="center">Всего производителей в базе данных: {{ count_manufacturers }}</p>
     <div class="center">
     {% if all_manufacturers %}
         <ul>
@@ -10,8 +10,8 @@
                 {% endfor %}
             </ul>
         {% else %}
-            <strong>There are no manufacturers to present!</strong>
+            <strong>Производители отсутствуют!</strong>
     {% endif %}
-        <p align="center"><a href="/eshop/">Return to Gremlin</a></p>
+        <p align="center"><a href="/eshop/">Вернуться на главную страницу</a></p>
     </div>
 {% endblock %}
