@@ -1,12 +1,13 @@
 {% extends 'eshop/_base.html' %}
+{% load static %}
+{% block title %} Описание производителя {% endblock %}
 {% block content %}
     <div>
-    {% if manuf_detail %}
-        <p align="center"><b>{{ manuf_detail.manufacturer_name }}</b></p>
-        <p>{{ manuf_detail.manufacturer_info }}</p>
-    {% else %}
+        {% if manuf_detail %}
+            <p align="center"><b>{{ manuf_detail.manufacturer_name }}</b></p>
+            <p>{{ manuf_detail.manufacturer_info }}</p>
+        {% else %}
             <strong>There are no manufacturer to present!</strong>
-    {% endif %}
-        <p align="center"><a href="/eshop/">Return to Gremlin</a></p>
+        {% endif %}
     </div>
 {% endblock %}

@@ -1,26 +1,68 @@
-{% load static %}
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>MobShop</title>
+    <title>{% block title %}MobShop{% endblock %}</title>
+    {% load static %}
     <link rel="shortcut icon" type="image/png" href="{% static 'eshop/favicon/gremlin.ico' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'eshop/style.css' %}"/>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'eshop/style.css' %}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h2 class="welcome" align="center">Добро пожаловать! Мы продаем, вы покупаете!</h2>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!--logo -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{% url 'eshop:index' %}">MobShop</a>
+        </div>
+
+        <!-- items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="nav navbar-nav">
+                <li><a href="{% url 'eshop:manufacturers' %}"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp; Производители</a></li>
+                <li><a href="{% url 'eshop:phonemodels' %}"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp; Модели телефонов</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search" method="get" action="#">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="q" value="">
+                </div>
+                <button type="submit" class="btn btn-default">Поиск</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="#"><a href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Выйти (TODO)</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 {% block content %}
 {% endblock %}
-
+<p>_</p>
+<p>_</p>
+<p>_</p>
 <footer>
-    <div style="text-align:center">
-    <address>
-        Разработчик: <a href="mailto:adchizhov@outlook.com">Александр Чижов</a><br>
-        Мой Github:<br>
-        <a href="https://github.com/adchizhov">https://github.com/adchizhov</a><br>
-    </address>
+    <div class="navbar-fixed-bottom row-fluid">
+        <div class="navbar-inner">
+            <div class="container">
+                <address>
+                    Разработчик: <a href="mailto:adchizhov@outlook.com">Александр Чижов</a><br>
+                    Мой Github:<br>
+                    <a href="https://github.com/adchizhov">https://github.com/adchizhov</a><br>
+                </address>
+            </div>
+        </div>
     </div>
 </footer>
 </body>

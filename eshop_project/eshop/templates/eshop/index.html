@@ -1,11 +1,9 @@
 {% extends 'eshop/_base.html' %}
 {% load static %}
-
 {% block content %}
-  <div style="text-align:center">
-    <p class="welcome" align="center">Разработка сайта в процессе</p>
-  </div>
-<img src="{% static 'eshop/images/Gremlin.jpg' %}" alt="Gremlin View">
-    <p align="center"><a href="/eshop/phonemodels">Модели телефонов</a></p>
-    <p align="center"><a href="/eshop/manufacturers">Представленные производители</a></p>
+    <h2 class="welcome" align="center">Добро пожаловать! Мы продаем, вы покупаете!</h2>
+    <div style="text-align:center">
+        <p class="welcome" align="center">Разработка сайта в процессе</p>
+    </div>
+    <img class="maingremlin" src="{% static 'eshop/images/Gremlin.jpg' %}" alt="Gremlin View">
 {% endblock %}

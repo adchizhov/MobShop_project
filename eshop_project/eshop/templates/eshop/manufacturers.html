@@ -1,17 +1,21 @@
 {% extends 'eshop/_base.html' %}
+{% load static %}
+{% block title %} Производители {% endblock %}
 {% block content %}
     <h4 align="center">Представленные производители</h4>
     <p align="center">Всего производителей в базе данных: {{ count_manufacturers }}</p>
     <div class="center">
-    {% if all_manufacturers %}
-        <ul>
-            {% for manu in all_manufacturers %}
-                <li><a href="{% url 'eshop:manufacturer_detail' manu.id %}">{{ manu.manufacturer_name }}</a></li>
+        {% if all_manufacturers %}
+            <ul>
+                {% for manu in all_manufacturers %}
+                    <li><a href="{% url 'eshop:manufacturer_detail' manu.id %}">{{ manu.manufacturer_name }}</a></li>
                 {% endfor %}
             </ul>
         {% else %}
             <strong>Производители отсутствуют!</strong>
-    {% endif %}
-        <p align="center"><a href="/eshop/">Вернуться на главную страницу</a></p>
+        {% endif %}
     </div>
+    <p> </p>
+    <p> </p>
+    <p> </p>
 {% endblock %}

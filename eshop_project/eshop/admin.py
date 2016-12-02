@@ -27,6 +27,7 @@ class CustomPhoneProduct(admin.ModelAdmin):
     )
     list_per_page = 50
     list_editable = (
+        'phone_model',
         'price',
         'stock',
     )

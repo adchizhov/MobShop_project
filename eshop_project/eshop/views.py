@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.forms import model_to_dict
+from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 import logging
 from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
@@ -46,8 +47,10 @@ def show_phonemodels(request):
 
 def phonemodel_detail(request, phonemodel_id):
     try:
+        phone_modelname = PhoneProduct.objects.get(pk=phonemodel_id)
         phone_detail = PhoneProductForm(data=model_to_dict(PhoneProduct.objects.get(pk=phonemodel_id)))
         # phone_detail = PhoneProduct.objects.filter(id=phonemodel_id).values()
     except PhoneProduct.DoesNotExist:
         raise Http404("Phone does not exist!")
-    return render(request, 'eshop/phonemodel_detail.html', {'phone_detail': phone_detail})
+    return render(request, 'eshop/phonemodel_detail.html',
+                  {'phone_detail': phone_detail, 'phone_modelname': phone_modelname})
