@@ -2,14 +2,19 @@
 {% load static %}
 {% block title %} Описание телефона {% endblock %}
 {% block content %}
-    <div>
-        {% if phone_detail %}
-            <p align="center"><b>{{ phone_modelname.phone_model }}</b></p>
-            {% for field in phone_detail %}
-                <li><b>{{ field.label }}:</b> {{ field.data }}</li>
-            {% endfor %}
-        {% else %}
-            <strong>Модель телефона отсутсвует!</strong>
-        {% endif %}
-    </div>
+<div>
+    {% if phone_detail %}
+    <p align="center"><b>{{ phone_modelname.phone_model }}</b></p>
+    <table>
+        {% for field in phone_detail %}
+        <tr>
+            <td>{{ field.label }} : </td>
+            <td>{{ field.value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <strong>Модель телефона отсутсвует!</strong>
+    {% endif %}
+</div>
 {% endblock %}

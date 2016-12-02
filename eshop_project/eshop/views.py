@@ -46,11 +46,9 @@ def show_phonemodels(request):
 
 
 def phonemodel_detail(request, phonemodel_id):
-    try:
-        phone_modelname = PhoneProduct.objects.get(pk=phonemodel_id)
-        phone_detail = PhoneProductForm(data=model_to_dict(PhoneProduct.objects.get(pk=phonemodel_id)))
-        # phone_detail = PhoneProduct.objects.filter(id=phonemodel_id).values()
-    except PhoneProduct.DoesNotExist:
-        raise Http404("Phone does not exist!")
+    phone_modelname = PhoneProduct.objects.get(pk=phonemodel_id)
+    model = get_object_or_404(PhoneProduct, pk=phonemodel_id)
+    phone_detail = PhoneProductForm(instance=model)
+    # phone_detail = PhoneProductForm(data=model_to_dict(PhoneProduct.objects.get(pk=phonemodel_id))), но это плохо
     return render(request, 'eshop/phonemodel_detail.html',
                   {'phone_detail': phone_detail, 'phone_modelname': phone_modelname})
