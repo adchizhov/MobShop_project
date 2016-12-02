@@ -5,11 +5,11 @@
 <div>
     {% if phone_detail %}
     <p align="center"><b>{{ phone_modelname.phone_model }}</b></p>
-    <table>
+    <table class="table table-bordered">
         {% for field in phone_detail %}
         <tr>
-            <td>{{ field.label }} : </td>
-            <td>{{ field.value }}</td>
+            <td class="col-md-2" align="center">{{ field.label }} : </td>
+            <td class="col-md-6">{{ field.value }}</td>
         </tr>
         {% endfor %}
     </table>
