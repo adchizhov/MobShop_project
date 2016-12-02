@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from django.forms import model_to_dict
-from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 import logging
 from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
@@ -29,7 +27,7 @@ def show_manufacturers(request):
 
 
 def manufacturer_detail(request, manufacturer_id):
-    # проще через get_object_or_404 что было без трай/эксепт!
+    # проще через get_object_or_404 чтобы было без трай/эксепт!
     # try:
     #     manuf_detail = Manufacturer.objects.get(pk=manufacturer_id)
     # except Manufacturer.DoesNotExist:
