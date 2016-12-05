@@ -7,13 +7,13 @@ __author__ = 'adchizhov'
 app_name = 'eshop'  # обозначил имя приложения для шаблонов йоу!
 urlpatterns = [
     # eshop/
-    url(r'^$', views.index_page, name='index'),
+    url(r'^$', views.IndexView.as_view(), name='index'),
     # eshop/manufacturers/
-    url(r'^manufacturers/$', views.show_manufacturers, name='manufacturers'),
+    url(r'^manufacturers/$', views.ManufacturersView.as_view(), name='manufacturers'),
     # /eshop/manufacturers/2/
     url(r'^manufacturers/(?P<manufacturer_id>[0-9]+)/$', views.manufacturer_detail, name='manufacturer_detail'),
     # /eshop/phonemodels/
-    url(r'^phonemodels/$', views.show_phonemodels, name='phonemodels'),
+    url(r'^phonemodels/$', views.PhoneModelsView.as_view(), name='phonemodels'),
     # /eshop/phonemodels/1
     url(r'^phonemodels/(?P<phonemodel_id>[0-9]+)/$', views.phonemodel_detail, name='phonemodel_detail'),
 ]

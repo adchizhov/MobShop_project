@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 from django.shortcuts import render, get_object_or_404
 import logging
+from django.views import generic
 from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
 from .models import Manufacturer, PhoneProduct, Customer, Order
 
@@ -15,15 +16,28 @@ logger.warning("It is a warning")
 logger.error("All is broken")
 
 
-def index_page(request):
-    return render(request, 'eshop/index.html')
+class IndexView(generic.TemplateView):
+    template_name = 'eshop/index.html'
 
 
-def show_manufacturers(request):
-    all_manufacturers = Manufacturer.objects.all()
-    count_manufacturers = Manufacturer.objects.count()
-    c = {'all_manufacturers': all_manufacturers, 'count_manufacturers': count_manufacturers}
-    return render(request, 'eshop/manufacturers.html', c)
+class ManufacturersView(generic.ListView):
+    template_name = 'eshop/manufacturers.html'
+    context_object_name = 'all_manufacturers'
+
+    def get_context_data(self, **kwargs):
+        context = super(ManufacturersView, self).get_context_data(**kwargs)
+        context['count_manufacturers'] = Manufacturer.objects.count()
+        return context
+
+    def get_queryset(self):
+        return Manufacturer.objects.all()
+
+# via function
+# def show_manufacturers(request):
+#     all_manufacturers = Manufacturer.objects.all()
+#     count_manufacturers = Manufacturer.objects.count()
+#     c = {'all_manufacturers': all_manufacturers, 'count_manufacturers': count_manufacturers}
+#     return render(request, 'eshop/manufacturers.html', c)
 
 
 def manufacturer_detail(request, manufacturer_id):
@@ -36,17 +50,22 @@ def manufacturer_detail(request, manufacturer_id):
     return render(request, 'eshop/manufacturer_detail.html', {'manuf_detail': manuf_detail})
 
 
-def show_phonemodels(request):
-    all_phonemodels = PhoneProduct.objects.all()
-    count_phonemodels = PhoneProduct.objects.count()
-    c = {'all_phonemodels': all_phonemodels, 'count_phonemodels': count_phonemodels}
-    return render(request, 'eshop/phonemodels.html', c)
+class PhoneModelsView(generic.ListView):
+    template_name = 'eshop/phonemodels.html'
+    context_object_name = 'all_phonemodels'
+
+    def get_context_data(self, **kwargs):
+        context=super(PhoneModelsView,self).get_context_data(**kwargs)
+        context['count_phonemodels'] = PhoneProduct.objects.count()
+        return context
+
+    def get_queryset(self):
+        return PhoneProduct.objects.all()
 
 
 def phonemodel_detail(request, phonemodel_id):
     phone_modelname = PhoneProduct.objects.get(pk=phonemodel_id)
     model = get_object_or_404(PhoneProduct, pk=phonemodel_id)
     phone_detail = PhoneProductForm(instance=model)
-    # phone_detail = PhoneProductForm(data=model_to_dict(PhoneProduct.objects.get(pk=phonemodel_id))), но это плохо
     return render(request, 'eshop/phonemodel_detail.html',
                   {'phone_detail': phone_detail, 'phone_modelname': phone_modelname})
