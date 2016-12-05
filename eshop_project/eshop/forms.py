@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 from django import forms
-from .models import Manufacturer, PhoneProduct, Customer, Order
+from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
 
@@ -29,14 +29,8 @@ class PhoneProductForm(forms.ModelForm):
             'weight',
             'size',
             'description',
-            'price'
+            'price',
         ]
-
-
-class CustomerForm(forms.ModelForm):
-    class Meta:
-        model = Customer
-        fields = '__all__'
 
 
 class OrderForm(forms.ModelForm):

@@ -3,8 +3,9 @@ from __future__ import unicode_literals
 from django.shortcuts import render, get_object_or_404
 import logging
 from django.views import generic
-from .forms import ManufacturerForm, PhoneProductForm, CustomerForm, OrderForm
-from .models import Manufacturer, PhoneProduct, Customer, Order
+from django.views.generic.edit import CreateView
+from .forms import ManufacturerForm, PhoneProductForm, OrderForm
+from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
 
@@ -69,3 +70,17 @@ def phonemodel_detail(request, phonemodel_id):
     phone_detail = PhoneProductForm(instance=model)
     return render(request, 'eshop/phonemodel_detail.html',
                   {'phone_detail': phone_detail, 'phone_modelname': phone_modelname})
+
+
+class OrderCreate(CreateView):
+    model = Order
+    fields = [
+        'first_name',
+        'last_name',
+        'email',
+        'phone_number',
+        'address',
+        'product',
+        'comment',
+        'ordered_datetime'
+    ]

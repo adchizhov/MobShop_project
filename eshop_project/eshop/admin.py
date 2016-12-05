@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 from django.contrib import admin
-from .models import Manufacturer, PhoneProduct, Customer, Order
+from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
 
@@ -44,27 +44,25 @@ class CustomPhoneProduct(admin.ModelAdmin):
     )
 
 
-class CustomCustomer(admin.ModelAdmin):
-    list_display = (
-        'first_name',
-        'last_name',
-        'phone_number',
-        'email',
-        'address',
-    )
-    search_fields = (
-        'phone_number',
-        'email',
-        'address',
-    )
-    list_per_page = 100
+# class CustomCustomer(admin.ModelAdmin):
+#     list_display = (
+#         'first_name',
+#         'last_name',
+#         'phone_number',
+#         'email',
+#         'address',
+#     )
+#     search_fields = (
+#         'phone_number',
+#         'email',
+#         'address',
+#     )
+#     list_per_page = 100
 
 
 class CustomOrder(admin.ModelAdmin):
     list_display = (
-        'order_number',
-        'customer',
-        'product'
+        'product',
     )
     list_per_page = 100
     date_hierarchy = 'ordered_datetime'
@@ -72,5 +70,5 @@ class CustomOrder(admin.ModelAdmin):
 
 admin.site.register(Manufacturer, CustomManufacturer)
 admin.site.register(PhoneProduct, CustomPhoneProduct)
-admin.site.register(Customer, CustomCustomer)
+# admin.site.register(Customer, CustomCustomer)
 admin.site.register(Order, CustomOrder)

@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'djmoney',
     # my apps
     'eshop',
-    'eshop_auth',
+
 ]
 
 MIDDLEWARE = [
@@ -190,6 +190,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 # STATICFILES_DIRS = [
@@ -198,10 +199,3 @@ MEDIA_URL = '/media/'
 
 
 # Authorization
-
-AUTH_USER_MODEL = 'eshop_auth.CustomUser'
-LOGIN_URL = 'eshop/login'
-LOGIN_REDIRECT_URL = 'eshop/manufacturers'
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend'
-]

@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 from django.test import TestCase
-from .models import Manufacturer, PhoneProduct, Customer, Order
+from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
 
@@ -63,23 +63,23 @@ class TestPhoneProduct(TestCase):
         self.assertEqual(str(ph_prod), ph_prod.phone_model)
 
 
-class TestCustomer(TestCase):
-    def test_customer_creation(self):
-        customer = Customer.objects.create(
-            first_name='Alice',
-            last_name='Demidova',
-            email='wonderland@yandex.ru',
-            phone_number='+79103478976',
-            address='In the galaxy far far away'
-        )
-        assert customer.pk is not None
-
-    # тесты с использованием фикстур
-    fixtures = ['db_v1.json']
-
-    def test_customer_get_from_fixtures(self):
-        customer_fixt = Customer.objects.get(first_name='Василий')
-        assert customer_fixt is not None
+# class TestCustomer(TestCase):
+#     def test_customer_creation(self):
+#         customer = Customer.objects.create(
+#             first_name='Alice',
+#             last_name='Demidova',
+#             email='wonderland@yandex.ru',
+#             phone_number='+79103478976',
+#             address='In the galaxy far far away'
+#         )
+#         assert customer.pk is not None
+#
+#     # тесты с использованием фикстур
+#     fixtures = ['db_v1.json']
+#
+#     def test_customer_get_from_fixtures(self):
+#         customer_fixt = Customer.objects.get(first_name='Василий')
+#         assert customer_fixt is not None
 
 
 class TestOrder(TestCase):

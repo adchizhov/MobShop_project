@@ -16,4 +16,6 @@ urlpatterns = [
     url(r'^phonemodels/$', views.PhoneModelsView.as_view(), name='phonemodels'),
     # /eshop/phonemodels/1
     url(r'^phonemodels/(?P<phonemodel_id>[0-9]+)/$', views.phonemodel_detail, name='phonemodel_detail'),
+    # /eshop/make_order/
+    url(r'^makeorder/$', views.OrderCreate.as_view(), name='make_order'),
 ]

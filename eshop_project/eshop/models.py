@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from djmoney.models.fields import MoneyField
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
+from django.core.urlresolvers import reverse
 # поддержим python 2
 from django.utils.encoding import python_2_unicode_compatible
 
@@ -113,36 +114,41 @@ class PhoneProduct(models.Model):
         return self.phone_model
 
 
-@python_2_unicode_compatible
-class Customer(models.Model):
-    first_name = models.CharField(max_length=15)
-    last_name = models.CharField(max_length=20)
-    email = models.EmailField()
-    phone_number = PhoneNumberField(default='', help_text='+79036796573')
-    address = models.CharField(max_length=150)
-
-    class Meta:
-        verbose_name = 'Клиент'
-        verbose_name_plural = 'Клиенты'
-
-    def __str__(self):
-        return 'Клиент: {} {}'.format(self.first_name, self.last_name)
+# @python_2_unicode_compatible
+# class Customer(models.Model):
+#     first_name = models.CharField(max_length=15)
+#     last_name = models.CharField(max_length=20)
+#     email = models.EmailField()
+#     phone_number = PhoneNumberField(default='', help_text='+79036796573')
+#     address = models.CharField(max_length=150)
+#
+#     class Meta:
+#         verbose_name = 'Клиент'
+#         verbose_name_plural = 'Клиенты'
+#
+#     def __str__(self):
+#         return 'Клиент: {} {}'.format(self.first_name, self.last_name)
 
 
 @python_2_unicode_compatible
 class Order(models.Model):
-    # стойкое ощущение что здесь многого не хватает
-    order_number = models.CharField(max_length=8, default='00000001')  # TODO
-    customer = models.ForeignKey('Customer')
-    product = models.ForeignKey('PhoneProduct')
-    ordered_datetime = models.DateTimeField()
-    comment = models.CharField(max_length=140, blank=True)
+    first_name = models.CharField(max_length=15, verbose_name='Имя')
+    last_name = models.CharField(max_length=20, verbose_name='Фамилия')
+    email = models.EmailField(verbose_name='E-Mail')
+    phone_number = PhoneNumberField(default='', help_text='+79036796573', verbose_name='Номер телефона')
+    address = models.CharField(max_length=150, verbose_name='Адрес доставки')
+    product = models.ForeignKey('PhoneProduct', verbose_name='Модель телефона')
+    ordered_datetime = models.DateTimeField(blank=True, null=True)
+    comment = models.CharField(max_length=140, blank=True, verbose_name='Комментарий к зазазу')
 
     class Meta:
         verbose_name = 'Заказ'
         verbose_name_plural = 'Заказы'
 
+    def get_absolute_url(self):
+        return reverse('eshop:index')
+
     def __str__(self):
         return 'Клиент: {} заказал {} от {} с комментарием {}'.format(
-            self.customer, self.product, self.ordered_datetime, self.comment
+            self.last_name, self.product, self.ordered_datetime, self.comment
         )
