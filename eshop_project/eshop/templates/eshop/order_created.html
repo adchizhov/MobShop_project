@@ -1,0 +1,7 @@
+{% extends 'eshop/_base.html' %}
+{% load static %}
+{% block content %}
+<div class="order-created">Поздравляем! Ваш заказ успешно сформирован и отправлен менеджеру на обработку.</div>
+<div class="order-created">Менеджер свяжется с Вами в течение 20 минут.</div>
+<img class="pictures" src="{% static 'eshop/img/success.jpg' %}" alt="success">
+{% endblock %}

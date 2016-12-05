@@ -21,6 +21,10 @@ class IndexView(generic.TemplateView):
     template_name = 'eshop/index.html'
 
 
+class OrderCreatedView(generic.TemplateView):
+    template_name = "eshop/order_created.html"
+
+
 class ManufacturersView(generic.ListView):
     template_name = 'eshop/manufacturers.html'
     context_object_name = 'all_manufacturers'
@@ -82,5 +86,4 @@ class OrderCreate(CreateView):
         'address',
         'product',
         'comment',
-        'ordered_datetime'
     ]

@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+
+from django.utils import timezone
 from djmoney.models.fields import MoneyField
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
@@ -138,7 +140,12 @@ class Order(models.Model):
     phone_number = PhoneNumberField(default='', help_text='+79036796573', verbose_name='Номер телефона')
     address = models.CharField(max_length=150, verbose_name='Адрес доставки')
     product = models.ForeignKey('PhoneProduct', verbose_name='Модель телефона')
-    ordered_datetime = models.DateTimeField(blank=True, null=True)
+    ordered_datetime = models.DateTimeField(
+        blank=True,
+        null=True,
+        default=timezone.now,
+        verbose_name='Дата и время заказа'
+    )
     comment = models.CharField(max_length=140, blank=True, verbose_name='Комментарий к зазазу')
 
     class Meta:
@@ -146,7 +153,7 @@ class Order(models.Model):
         verbose_name_plural = 'Заказы'
 
     def get_absolute_url(self):
-        return reverse('eshop:index')
+        return reverse('eshop:order_created')
 
     def __str__(self):
         return 'Клиент: {} заказал {} от {} с комментарием {}'.format(

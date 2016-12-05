@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-img.maingremlin {
+img.pictures {
     display: block;
     margin: auto;
     width: 40%;
@@ -39,4 +39,9 @@ img.maingremlin {
 
 .nav.navbar-nav li a {
     color: whitesmoke;
+}
+
+.order-created {
+    font-size: 20px;
+    text-align: center;
 }
