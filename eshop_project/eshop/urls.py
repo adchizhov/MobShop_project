@@ -10,6 +10,8 @@ urlpatterns = [
     url(r'^$', views.IndexView.as_view(), name='index'),
     # eshop/manufacturers/
     url(r'^manufacturers/$', views.ManufacturersView.as_view(), name='manufacturers'),
+    # eshop/register
+    url(r'^register/$', views.UserFormView.as_view(), name='register'),
     # /eshop/manufacturers/2/
     url(r'^manufacturers/(?P<manufacturer_id>[0-9]+)/$', views.manufacturer_detail, name='manufacturer_detail'),
     # /eshop/phonemodels/

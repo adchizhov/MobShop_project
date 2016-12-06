@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 import logging
 from django.views import generic
 from django.views.generic.edit import CreateView
-from .forms import ManufacturerForm, PhoneProductForm, OrderForm
+from django.contrib.auth import authenticate, login
+from django.views.generic import View
+from .forms import PhoneProductForm, UserForm
 from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
@@ -87,3 +89,30 @@ class OrderCreate(CreateView):
         'product',
         'comment',
     ]
+
+
+class UserFormView(View):
+    form_class = UserForm
+    template_name = 'eshop/registration_form.html'
+
+    def get(self, request):
+        form = self.form_class(None)
+        return render(request, self.template_name, {'form': form})
+
+    def post(self,request):
+        form = self.form_class(request.POST)
+
+        if form.is_valid():
+            user=form.save(commit=False)
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+            user.set_password(password)
+            user.save()
+            user = authenticate(username=username, password=password)
+
+            if user is not None:
+                if user.is_active:
+                    login(request, user)
+                    return redirect('eshop:index') # TODO
+
+        return render(request, self.template_name, {'form': form})

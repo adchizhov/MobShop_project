@@ -1,16 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+from django.contrib.auth.models import User
 from django import forms
-from .models import Manufacturer, PhoneProduct, Order
+from .models import PhoneProduct
 
 __author__ = 'adchizhov'
-
-
-class ManufacturerForm(forms.ModelForm):
-    class Meta:
-        model = Manufacturer
-        fields = '__all__'
 
 
 class PhoneProductForm(forms.ModelForm):
@@ -33,7 +28,9 @@ class PhoneProductForm(forms.ModelForm):
         ]
 
 
-class OrderForm(forms.ModelForm):
+class UserForm(forms.ModelForm):
+    password = forms.CharField(widget=forms.PasswordInput)
+
     class Meta:
-        model = Order
-        fields = '__all__'
+        model = User
+        fields = ['username', 'email', 'password']
