@@ -38,6 +38,7 @@ img.pictures {
 }
 
 .nav.navbar-nav li a {
+    line-height: 50px;
     color: whitesmoke;
 }
 

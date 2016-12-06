@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 import logging
 from django.views import generic
 from django.views.generic.edit import CreateView
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.views.generic import View
 from .forms import PhoneProductForm, UserForm
 from .models import Manufacturer, PhoneProduct, Order
@@ -113,6 +113,29 @@ class UserFormView(View):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return redirect('eshop:index') # TODO
+                    return redirect('eshop:index')
 
         return render(request, self.template_name, {'form': form})
+
+
+def login_user(request):
+    if request.method == "POST":
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return redirect('eshop:index') # TODO!!!
+        else:
+            return render(request, 'eshop/login.html', {'error_message': 'Неверный логин или пароль'})
+    return render(request, 'eshop/login.html')
+
+
+def logout_user(request):
+    logout(request)
+    form = UserForm(request.POST or None)
+    context = {
+        "form": form,
+    }
+    return render(request, 'eshop/index.html', context)
