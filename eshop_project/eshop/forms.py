@@ -33,4 +33,10 @@ class UserForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ['username', 'email', 'password']
+        fields = ['username', 'password', 'email']
+
+    def __init__(self, *args, **kwargs):
+        super(UserForm, self).__init__(*args, **kwargs)
+        self.fields['username'].label = 'Логин'
+        self.fields['email'].label = 'E-mail'
+        self.fields['password'].label = 'Пароль'
