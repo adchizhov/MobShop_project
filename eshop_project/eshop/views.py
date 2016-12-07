@@ -14,9 +14,9 @@ __author__ = 'adchizhov'
 
 logger = logging.getLogger(__name__)
 
-logger.debug("blah blah blah")
-logger.warning("It is a warning")
-logger.error("All is broken")
+logger.debug("Low level system information for debugging purposes")
+logger.warning("Information describing a minor problem that has occurred.")
+logger.error("Information describing a major problem that has occurred.")
 
 
 class IndexView(generic.TemplateView):
