@@ -6,4 +6,17 @@
         <p class="welcome" align="center">Разработка сайта в процессе</p>
     </div>
     <img class="pictures" src="{% static 'eshop/img/BeFunkyDesign.png' %}" alt="Home page">
+    {{ cart.item_count }}
+    {{ cart.total_price }}
+
+    {% for item in cart.list_items %}
+        <div>
+            {# Access the item's model instance using its "obj" attribute #}
+            {{ item.obj.name }}
+            <img src="{{ item.obj.picture.url }}">
+            {{ item.price }}
+            {{ item.quantity }}
+            {{ item.total }}
+        </div>
+    {% endfor %}
 {% endblock %}

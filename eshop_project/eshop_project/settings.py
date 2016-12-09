@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'djmoney',
     # my apps
     'eshop',
-
 ]
 
 MIDDLEWARE = [
@@ -196,6 +195,5 @@ MEDIA_URL = '/media/'
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static')
 # ]
-
 
 # Authorization

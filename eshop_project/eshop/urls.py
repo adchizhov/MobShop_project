@@ -17,7 +17,7 @@ urlpatterns = [
     # eshop/login
     url(r'^login/$', views.login_user, name='login'),
     # /eshop/manufacturers/2/
-    url(r'^manufacturers/(?P<manufacturer_id>[0-9]+)/$', views.manufacturer_detail, name='manufacturer_detail'),
+    url(r'^manufacturers/(?P<manufacturer_id>[0-9]+)/$', views.manufacturer_models, name='manufacturer_detail'),
     # /eshop/phonemodels/
     url(r'^phonemodels/$', views.PhoneModelsView.as_view(), name='phonemodels'),
     # /eshop/phonemodels/1

@@ -1,0 +1,26 @@
+{% extends 'eshop/_base.html' %}
+{% load static %}
+{% block title %} Описание производителя {% endblock %}
+{% block content %}
+    <div class="text-center col-lg-6 col-lg-offset-3">
+        {% if manuf_detail %}
+            <p align="center"><b>{{ manuf_detail.manufacturer_name }}</b></p>
+            <p>{{ manuf_detail.manufacturer_info }}</p>
+        {% else %}
+            <strong>Производители отсутствуют!</strong>
+        {% endif %}
+        {% if manuf_models %}
+            <p align="center"><b>Список представленных моделей</b></p>
+            {% for phone in manuf_models %}
+                <div class="text-center">
+                    <p align="center"><b>{{ phone.phone_model }}</b></p>
+                    <a href="{% url 'eshop:phonemodel_detail' phone.id %}">
+                        <img src="{{ phone.image.url }}" class="img-responsive center-block" height="200" width="100" alt="{{ phone.phone_model }}">
+                    </a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <strong>Модели телефонов отсутствуют!</strong>
+        {% endif %}
+    </div>
+{% endblock %}

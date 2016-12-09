@@ -107,6 +107,7 @@ class PhoneProduct(models.Model):
         default=True,
         verbose_name='Наличие'
     )
+    image = models.ImageField()
 
     class Meta:
         verbose_name = 'Модель телефона'

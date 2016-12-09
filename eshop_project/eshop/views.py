@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+
+from django.http import Http404
 from django.shortcuts import render, redirect, get_object_or_404
 import logging
 from django.views import generic
@@ -10,7 +12,6 @@ from .forms import PhoneProductForm, UserForm
 from .models import Manufacturer, PhoneProduct, Order
 
 __author__ = 'adchizhov'
-
 
 logger = logging.getLogger(__name__)
 
@@ -37,7 +38,8 @@ class ManufacturersView(generic.ListView):
         return context
 
     def get_queryset(self):
-        return Manufacturer.objects.all()
+        return Manufacturer.objects.all().order_by('manufacturer_name')
+
 
 # via function
 # def show_manufacturers(request):
@@ -45,16 +47,34 @@ class ManufacturersView(generic.ListView):
 #     count_manufacturers = Manufacturer.objects.count()
 #     c = {'all_manufacturers': all_manufacturers, 'count_manufacturers': count_manufacturers}
 #     return render(request, 'eshop/manufacturers.html', c)
+#
 
 
-def manufacturer_detail(request, manufacturer_id):
-    # проще через get_object_or_404 чтобы было без трай/эксепт!
-    # try:
-    #     manuf_detail = Manufacturer.objects.get(pk=manufacturer_id)
-    # except Manufacturer.DoesNotExist:
-    #     raise Http404("Manufacturer does not exist!")
-    manuf_detail = get_object_or_404(Manufacturer, pk=manufacturer_id)
-    return render(request, 'eshop/manufacturer_detail.html', {'manuf_detail': manuf_detail})
+def manufacturer_models(request, manufacturer_id):
+    try:
+        manufacturer = Manufacturer.objects.get(pk=manufacturer_id)
+        manuf_detail = get_object_or_404(Manufacturer, pk=manufacturer_id)
+        manuf_models = manufacturer.phoneproduct_set.all()
+    except Manufacturer.DoesNotExist:
+        raise Http404("Нет такого производителя!")
+    return render(
+        request,
+        'eshop/manufacturer_models.html',
+        {'manuf_models': manuf_models, 'manuf_detail': manuf_detail}
+    )
+
+
+# old solution with only info
+# def manufacturer_detail(request, manufacturer_id):
+# long way
+#     # проще через get_object_or_404 чтобы было без трай/эксепт!
+#     # try:
+#     #     manuf_detail = Manufacturer.objects.get(pk=manufacturer_id)
+#     # except Manufacturer.DoesNotExist:
+#     #     raise Http404("Manufacturer does not exist!")
+# faster way
+#     manuf_detail = get_object_or_404(Manufacturer, pk=manufacturer_id)
+#     return render(request, 'eshop/manufacturer_models.html', {'manuf_detail': manuf_detail})
 
 
 class PhoneModelsView(generic.ListView):
@@ -62,7 +82,7 @@ class PhoneModelsView(generic.ListView):
     context_object_name = 'all_phonemodels'
 
     def get_context_data(self, **kwargs):
-        context=super(PhoneModelsView,self).get_context_data(**kwargs)
+        context = super(PhoneModelsView, self).get_context_data(**kwargs)
         context['count_phonemodels'] = PhoneProduct.objects.count()
         return context
 
@@ -99,11 +119,11 @@ class UserFormView(View):
         form = self.form_class(None)
         return render(request, self.template_name, {'form': form})
 
-    def post(self,request):
+    def post(self, request):
         form = self.form_class(request.POST)
 
         if form.is_valid():
-            user=form.save(commit=False)
+            user = form.save(commit=False)
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             user.set_password(password)
@@ -126,7 +146,7 @@ def login_user(request):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                return redirect('eshop:index') # TODO!!!
+                return redirect('eshop:index')  # TODO!!!
         else:
             return render(request, 'eshop/login.html', {'error_message': 'Неверный логин или пароль'})
     return render(request, 'eshop/login.html')
@@ -139,3 +159,5 @@ def logout_user(request):
         "form": form,
     }
     return render(request, 'eshop/index.html', context)
+
+
