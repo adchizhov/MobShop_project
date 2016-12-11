@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import render, redirect, get_object_or_404
 import logging
@@ -159,5 +160,28 @@ def logout_user(request):
         "form": form,
     }
     return render(request, 'eshop/index.html', context)
+
+
+# def index(request):
+#     if not request.user.is_authenticated():
+#         return render(request, 'eshop/index.html')
+#     else:
+#         manufacturer = Manufacturer.objects.filter(user=request.user)
+#         phone_model_res = PhoneProduct.objects.all()
+#         query = request.GET.get("q")
+#         if query:
+#             manufacturers = manufacturer.filter(
+#                 Q(manufacturer_name__icontains=query) |
+#                 Q(manufacturer_info__icontains=query)
+#             ).distinct()
+#             phone_results = phone_model_res.filter(
+#                 Q(phone_model__icontains=query)
+#             ).distinct()
+#             return render(request, 'music/index.html', {
+#                 'manufacturers': manufacturers,
+#                 'phone_models': phone_results,
+#             })
+#         else:
+#             return render(request, 'eshop/index.html', {'manufacturer': manufacturer})
 
 
