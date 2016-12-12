@@ -163,25 +163,22 @@ def logout_user(request):
 
 
 # def index(request):
-#     if not request.user.is_authenticated():
-#         return render(request, 'eshop/index.html')
+#     manufacturer = Manufacturer.objects.filter(manufacturer_name=request.user)
+#     phone_model_res = PhoneProduct.objects.all()
+#     query = request.GET.get("q")
+#     if query:
+#         manufacturers = manufacturer.filter(
+#             Q(manufacturer_name__icontains=query) |
+#             Q(manufacturer_info__icontains=query)
+#         ).distinct()
+#         phone_results = phone_model_res.filter(
+#             Q(phone_model__icontains=query)
+#         ).distinct()
+#         return render(request, 'eshop/index.html', {
+#             'manufacturers': manufacturers,
+#             'phone_models': phone_results,
+#         })
 #     else:
-#         manufacturer = Manufacturer.objects.filter(user=request.user)
-#         phone_model_res = PhoneProduct.objects.all()
-#         query = request.GET.get("q")
-#         if query:
-#             manufacturers = manufacturer.filter(
-#                 Q(manufacturer_name__icontains=query) |
-#                 Q(manufacturer_info__icontains=query)
-#             ).distinct()
-#             phone_results = phone_model_res.filter(
-#                 Q(phone_model__icontains=query)
-#             ).distinct()
-#             return render(request, 'music/index.html', {
-#                 'manufacturers': manufacturers,
-#                 'phone_models': phone_results,
-#             })
-#         else:
-#             return render(request, 'eshop/index.html', {'manufacturer': manufacturer})
+#         return render(request, 'eshop/index.html', {'manufacturer': manufacturer})
 
 
