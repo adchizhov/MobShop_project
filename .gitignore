@@ -6,8 +6,6 @@
 __pycache__/
 *.py[cod]
 
-*.log
-
 *.iml
 
 ## Directory-based project format:
