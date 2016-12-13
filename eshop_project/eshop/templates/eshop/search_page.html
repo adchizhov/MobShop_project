@@ -1,0 +1,21 @@
+{% extends 'eshop/_base.html' %}
+
+{% block content %}
+    <div class="text-center col-lg-6 col-lg-offset-3">
+        {% if manufacturers_results %}
+            <p><b>Поиск по производителям:</b></p>
+            {% for manufacturer in manufacturers_results %}
+                <a href="{% url 'eshop:manufacturer_detail' manufacturer.id %}"><p>{{ manufacturer.manufacturer_name }}</p></a>
+            {% endfor %}
+        {% endif %}
+        {% if phone_results %}
+            <p><b>Поиск по моделям телефонов:</b></p>
+            {% for phone in phone_results %}
+                <a href="{% url 'eshop:phonemodel_detail' phone.id %}"><p>{{ phone.phone_model }}</p></a>
+            {% endfor %}
+        {% else %}
+            <p><strong>Ничего не найдено, либо Вы ничего и не искали!</strong></p>
+        {% endif %}
+        <a href="{% url 'eshop:index' %}">Вернуться на главную страницу</a>
+    </div>
+{% endblock %}

@@ -26,4 +26,6 @@ urlpatterns = [
     url(r'^makeorder/$', views.OrderCreate.as_view(), name='make_order'),
     # /eshop/order_created
     url(r'^order_created/$', views.OrderCreatedView.as_view(), name='order_created'),
+    # /eshop/search
+    url(r'^search/$', views.search_function, name='search'),
 ]

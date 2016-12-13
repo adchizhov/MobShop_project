@@ -40,7 +40,7 @@
             <ul class="nav navbar-nav navbar-middle">
                 <li><a href="{% url 'eshop:register' %}"><span class="glyphicon glyphicon-registration-mark" aria-hidden="true"></span>&nbsp; Регистрация</a></li>
             </ul>
-            <form class="navbar-form navbar-right" role="search" method="get" action="#">
+            <form class="navbar-form navbar-right" role="search" method="get" action="{% url 'eshop:search' %}">
                 <div class="form-group">
                     <input type="text" class="form-control" name="q" value="">
                 </div>
@@ -72,13 +72,12 @@
 {% endblock %}
 
 <footer>
-    <div class="navbar-fixed-bottom row-fluid">
+    <div class="navbar-fixed-bottom">
         <div class="navbar-inner">
             <div class="container">
                 <address>
-                    Разработчик: <a href="mailto:adchizhov@outlook.com">Александр Чижов</a><br>
-                    Мой Github:<br>
-                    <a href="https://github.com/adchizhov">https://github.com/adchizhov</a><br>
+                    Написать разработчику: <a href="mailto:adchizhov@outlook.com">Александр Чижов</a><br>
+                    Мой Github: <a href="https://github.com/adchizhov">https://github.com/adchizhov</a>
                 </address>
             </div>
         </div>

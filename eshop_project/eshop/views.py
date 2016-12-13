@@ -74,7 +74,7 @@ class PhoneModelsView(generic.ListView):
         return context
 
     def get_queryset(self):
-        return PhoneProduct.objects.all()
+        return PhoneProduct.objects.all().order_by('phone_model')
 
 
 def phonemodel_detail(request, phonemodel_id):
@@ -138,6 +138,27 @@ def logout_user(request):
     }
     return render(request, 'eshop/index.html', context)
 
+
+def search_function(request):
+    manufacturers = Manufacturer.objects.all()
+    phone_models = PhoneProduct.objects.all()
+    query = request.GET.get("q")
+    if query:
+        manufacturers_results = manufacturers.filter(
+            Q(manufacturer_name__icontains=query) |
+            Q(manufacturer_info__icontains=query)
+        ).distinct()
+        phone_results = phone_models.filter(
+            Q(phone_model__icontains=query)
+        ).distinct()
+        return render(request, 'eshop/search_page.html', {
+            'manufacturers_results': manufacturers_results,
+            'phone_results': phone_results,
+        })
+    else:
+        return render(request, 'eshop/search_page.html')
+
+# via class
 # class UserFormView(View):
 #     form_class = UserForm
 #     template_name = 'eshop/registration_form.html'
@@ -163,23 +184,3 @@ def logout_user(request):
 #                     return redirect('eshop:index')
 #
 #         return render(request, self.template_name, {'form': form})
-
-
-# def index(request):
-#     manufacturer = Manufacturer.objects.filter(manufacturer_name=request.user)
-#     phone_model_res = PhoneProduct.objects.all()
-#     query = request.GET.get("q")
-#     if query:
-#         manufacturers = manufacturer.filter(
-#             Q(manufacturer_name__icontains=query) |
-#             Q(manufacturer_info__icontains=query)
-#         ).distinct()
-#         phone_results = phone_model_res.filter(
-#             Q(phone_model__icontains=query)
-#         ).distinct()
-#         return render(request, 'eshop/index.html', {
-#             'manufacturers': manufacturers,
-#             'phone_models': phone_results,
-#         })
-#     else:
-#         return render(request, 'eshop/index.html', {'manufacturer': manufacturer})
