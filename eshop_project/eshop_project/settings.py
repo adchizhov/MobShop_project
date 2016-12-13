@@ -24,12 +24,7 @@ SECRET_KEY = '_m$xf9qs5fq2_qayzwih0mha8=xm6b$lx)x@1+4kgq=-%*#s)('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '0.0.0.0',
-    'pizza-app-sobolev.herokuapp.com',
-]
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -158,13 +153,6 @@ LOGGING = {
     }
 }
 
-
-# DATABASE_URL
-
-import dj_database_url
-
-db_from_env = dj_database_url.config()
-DATABASES['default'].update(db_from_env)
 
 
 # Password validation
