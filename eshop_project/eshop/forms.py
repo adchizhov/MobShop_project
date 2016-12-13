@@ -3,6 +3,8 @@
 from __future__ import unicode_literals
 from django.contrib.auth.models import User
 from django import forms
+from django.core.exceptions import ValidationError
+
 from .models import PhoneProduct
 
 __author__ = 'adchizhov'
@@ -29,14 +31,35 @@ class PhoneProductForm(forms.ModelForm):
 
 
 class UserForm(forms.ModelForm):
-    password = forms.CharField(widget=forms.PasswordInput)
+    password = forms.CharField(
+        widget=forms.PasswordInput,
+        error_messages={'invalid': 'Введите пароль в верном виде'},
+        label='Пароль',
+    )
+    email = forms.EmailField(
+        widget=forms.TextInput,
+        error_messages={'invalid': 'Введите e-mail в верном виде'},
+        label="E-mail",
+    )
+    username = forms.CharField(
+        widget=forms.TextInput,
+        error_messages={'invalid': 'Введите логин в верном виде'},
+        label="Логин",
+    )
 
     class Meta:
         model = User
         fields = ['username', 'password', 'email']
 
-    def __init__(self, *args, **kwargs):
-        super(UserForm, self).__init__(*args, **kwargs)
-        self.fields['username'].label = 'Логин'
-        self.fields['email'].label = 'E-mail'
-        self.fields['password'].label = 'Пароль'
+    error_messages = {'duplicate_username': 'Пользователь с таким логином уже существует'}
+
+    def clean_username(self):
+        username = self.cleaned_data["username"]
+        try:
+            User._default_manager.get(username=username)
+            raise forms.ValidationError(
+                self.error_messages['duplicate_username'],
+                code='duplicate_username',
+            )
+        except User.DoesNotExist:
+            return username

@@ -54,28 +54,14 @@ class ManufacturersView(generic.ListView):
 def manufacturer_models(request, manufacturer_id):
     try:
         manufacturer = Manufacturer.objects.get(pk=manufacturer_id)
-        manuf_detail = get_object_or_404(Manufacturer, pk=manufacturer_id)
         manuf_models = manufacturer.phoneproduct_set.all()
     except Manufacturer.DoesNotExist:
         raise Http404("Нет такого производителя!")
     return render(
         request,
         'eshop/manufacturer_models.html',
-        {'manuf_models': manuf_models, 'manuf_detail': manuf_detail}
+        {'manuf_models': manuf_models, 'manuf_detail': manufacturer}
     )
-
-
-# old solution with only info
-# def manufacturer_detail(request, manufacturer_id):
-# long way
-#     # проще через get_object_or_404 чтобы было без трай/эксепт!
-#     # try:
-#     #     manuf_detail = Manufacturer.objects.get(pk=manufacturer_id)
-#     # except Manufacturer.DoesNotExist:
-#     #     raise Http404("Manufacturer does not exist!")
-# faster way
-#     manuf_detail = get_object_or_404(Manufacturer, pk=manufacturer_id)
-#     return render(request, 'eshop/manufacturer_models.html', {'manuf_detail': manuf_detail})
 
 
 class PhoneModelsView(generic.ListView):
@@ -92,11 +78,13 @@ class PhoneModelsView(generic.ListView):
 
 
 def phonemodel_detail(request, phonemodel_id):
-    phone_modelname = PhoneProduct.objects.get(pk=phonemodel_id)
-    model = get_object_or_404(PhoneProduct, pk=phonemodel_id)
-    phone_detail = PhoneProductForm(instance=model)
+    try:
+        phone_model = PhoneProduct.objects.get(pk=phonemodel_id)
+        phone_detail = PhoneProductForm(instance=phone_model)
+    except PhoneProduct.DoesNotExist:
+        raise Http404("Нет такой модели!")
     return render(request, 'eshop/phonemodel_detail.html',
-                  {'phone_detail': phone_detail, 'phone_modelname': phone_modelname})
+                  {'phone_detail': phone_detail, 'phone_modelname': phone_model})
 
 
 class OrderCreate(CreateView):
@@ -112,31 +100,20 @@ class OrderCreate(CreateView):
     ]
 
 
-class UserFormView(View):
-    form_class = UserForm
-    template_name = 'eshop/registration_form.html'
-
-    def get(self, request):
-        form = self.form_class(None)
-        return render(request, self.template_name, {'form': form})
-
-    def post(self, request):
-        form = self.form_class(request.POST)
-
-        if form.is_valid():
-            user = form.save(commit=False)
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-            user.set_password(password)
-            user.save()
-            user = authenticate(username=username, password=password)
-
-            if user is not None:
-                if user.is_active:
-                    login(request, user)
-                    return redirect('eshop:index')
-
-        return render(request, self.template_name, {'form': form})
+def register_user(request):
+    form = UserForm(request.POST or None)
+    if form.is_valid():
+        user = form.save(commit=False)
+        username = form.cleaned_data['username']
+        password = form.cleaned_data['password']
+        user.set_password(password)
+        user.save()
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return redirect('eshop:index')
+    return render(request, 'eshop/registration_form.html', {'form': form})
 
 
 def login_user(request):
@@ -161,6 +138,32 @@ def logout_user(request):
     }
     return render(request, 'eshop/index.html', context)
 
+# class UserFormView(View):
+#     form_class = UserForm
+#     template_name = 'eshop/registration_form.html'
+#
+#     def get(self, request):
+#         form = self.form_class(None)
+#         return render(request, self.template_name, {'form': form})
+#
+#     def post(self, request):
+#         form = self.form_class(request.POST)
+#
+#         if form.is_valid():
+#             user = form.save(commit=False)
+#             username = form.cleaned_data['username']
+#             password = form.cleaned_data['password']
+#             user.set_password(password)
+#             user.save()
+#             user = authenticate(username=username, password=password)
+#
+#             if user is not None:
+#                 if user.is_active:
+#                     login(request, user)
+#                     return redirect('eshop:index')
+#
+#         return render(request, self.template_name, {'form': form})
+
 
 # def index(request):
 #     manufacturer = Manufacturer.objects.filter(manufacturer_name=request.user)
@@ -180,5 +183,3 @@ def logout_user(request):
 #         })
 #     else:
 #         return render(request, 'eshop/index.html', {'manufacturer': manufacturer})
-
-

@@ -11,7 +11,7 @@ urlpatterns = [
     # eshop/manufacturers/
     url(r'^manufacturers/$', views.ManufacturersView.as_view(), name='manufacturers'),
     # eshop/register
-    url(r'^register/$', views.UserFormView.as_view(), name='register'),
+    url(r'^register/$', views.register_user, name='register'),
     # eshop/logout
     url(r'^logout/$', views.logout_user, name='logout'),
     # eshop/login
