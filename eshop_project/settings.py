@@ -200,25 +200,20 @@ USE_TZ = True
 # STATIC_ROOT = os.path.join((BASE_DIR), 'static'),
 # STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 
-# # Simplified static file serving.
-# # https://warehouse.python.org/project/whitenoise/
+
 
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 )
+
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'static')
-# ]
-
-# Authorization
