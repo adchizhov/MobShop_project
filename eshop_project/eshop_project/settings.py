@@ -24,7 +24,12 @@ SECRET_KEY = '_m$xf9qs5fq2_qayzwih0mha8=xm6b$lx)x@1+4kgq=-%*#s)('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mobshop.herokuapp.com']
+ALLOWED_HOSTS = [
+    'mobshop.herokuapp.com', 
+    '127.0.0.1',
+    'localhost',
+    '0.0.0.0'
+]
 
 # Application definition
 
