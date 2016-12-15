@@ -3,12 +3,30 @@
 from __future__ import unicode_literals
 from django.contrib.auth.models import User
 from django import forms
-from django.core.exceptions import ValidationError
 
-from .models import PhoneProduct
+from .models import PhoneProduct, Order
 
 __author__ = 'adchizhov'
 
+
+class OrderForm(forms.ModelForm):
+    email = forms.EmailField(
+        widget=forms.TextInput,
+        error_messages={'invalid': 'Введите e-mail в верном виде'},
+        label="E-mail",
+    )
+
+    class Meta:
+        model = Order
+        fields = [
+            'first_name',
+            'last_name',
+            'email',
+            'phone_number',
+            'address',
+            'product',
+            'comment',
+        ]
 
 class PhoneProductForm(forms.ModelForm):
     class Meta:

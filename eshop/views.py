@@ -3,14 +3,12 @@ from __future__ import unicode_literals
 
 from django.db.models import Q
 from django.http import Http404
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 # import logging
 from django.views import generic
-from django.views.generic.edit import CreateView
 from django.contrib.auth import authenticate, login, logout
-from django.views.generic import View
-from .forms import PhoneProductForm, UserForm
-from .models import Manufacturer, PhoneProduct, Order
+from .forms import PhoneProductForm, UserForm, OrderForm
+from .models import Manufacturer, PhoneProduct
 
 __author__ = 'adchizhov'
 
@@ -87,17 +85,12 @@ def phonemodel_detail(request, phonemodel_id):
                   {'phone_detail': phone_detail, 'phone_modelname': phone_model})
 
 
-class OrderCreate(CreateView):
-    model = Order
-    fields = [
-        'first_name',
-        'last_name',
-        'email',
-        'phone_number',
-        'address',
-        'product',
-        'comment',
-    ]
+def make_order(request):
+    form = OrderForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return render(request, 'eshop/order_created.html')
+    return render(request, 'eshop/order_form.html', {'form': form})
 
 
 def register_user(request):
@@ -124,7 +117,7 @@ def login_user(request):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                return redirect('eshop:index')  # TODO!!!
+                return redirect('eshop:index')
         else:
             return render(request, 'eshop/login.html', {'error_message': 'Неверный логин или пароль'})
     return render(request, 'eshop/login.html')

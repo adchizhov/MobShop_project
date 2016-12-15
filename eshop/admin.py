@@ -44,25 +44,14 @@ class CustomPhoneProduct(admin.ModelAdmin):
     )
 
 
-# class CustomCustomer(admin.ModelAdmin):
-#     list_display = (
-#         'first_name',
-#         'last_name',
-#         'phone_number',
-#         'email',
-#         'address',
-#     )
-#     search_fields = (
-#         'phone_number',
-#         'email',
-#         'address',
-#     )
-#     list_per_page = 100
-
-
 class CustomOrder(admin.ModelAdmin):
     list_display = (
         'product',
+        'first_name',
+        'last_name',
+        'phone_number',
+        'address',
+        'comment',
     )
     list_per_page = 100
     date_hierarchy = 'ordered_datetime'
