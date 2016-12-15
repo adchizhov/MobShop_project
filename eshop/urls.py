@@ -4,7 +4,7 @@ from . import views
 
 __author__ = 'adchizhov'
 
-app_name = 'eshop'  # обозначил имя приложения для шаблонов йоу!
+app_name = 'eshop'
 urlpatterns = [
     # eshop/
     url(r'^$', views.IndexView.as_view(), name='index'),
