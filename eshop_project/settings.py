@@ -23,12 +23,12 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = '_m$xf9qs5fq2_qayzwih0mha8=xm6b$lx)x@1+4kgq=-%*#s)('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'mobshop.herokuapp.com', 
-    '127.0.0.1',
     'localhost',
+    'mobshop.herokuapp.com',
+    '127.0.0.1',
     '0.0.0.0'
 ]
 
@@ -97,76 +97,76 @@ import dj_database_url
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'filters': {
-#         'require_debug_false': {
-#             '()': 'django.utils.log.RequireDebugFalse'
-#         },
-#         'require_debug_true': {
-#             '()': 'django.utils.log.RequireDebugTrue'
-#         }
-#     },
-#     'formatters': {
-#         'main_formatter': {
-#             'format': '%(levelname)s:%(name)s: %(message)s '
-#                       '(%(asctime)s; %(filename)s:%(lineno)d)',
-#             'datefmt': "%Y-%m-%d %H:%M:%S",
-#         },
-#     },
-#     'handlers': {
-#         'mail_admins': {
-#             'level': 'ERROR',
-#             'filters': ['require_debug_false'],
-#             'class': 'django.utils.log.AdminEmailHandler'
-#         },
-#         'console': {
-#             'level': 'DEBUG',
-#             'filters': ['require_debug_true'],
-#             'class': 'logging.StreamHandler',
-#             'formatter': 'main_formatter',
-#         },
-#         'production_file': {
-#             'level': 'INFO',
-#             'class': 'logging.handlers.RotatingFileHandler',
-#             'filename': 'logs/main.log',
-#             'maxBytes': 1024 * 1024 * 5,  # 5 MB
-#             'backupCount': 7,
-#             'formatter': 'main_formatter',
-#             'filters': ['require_debug_false'],
-#         },
-#         'debug_file': {
-#             'level': 'DEBUG',
-#             'class': 'logging.handlers.RotatingFileHandler',
-#             'filename': 'logs/main_debug.log',
-#             'maxBytes': 1024 * 1024 * 5,  # 5 MB
-#             'backupCount': 7,
-#             'formatter': 'main_formatter',
-#             'filters': ['require_debug_true'],
-#         },
-#         'null': {
-#             "class": 'logging.NullHandler',
-#         }
-#     },
-#     'loggers': {
-#         'django.request': {
-#             'handlers': ['mail_admins', 'console'],
-#             'level': 'ERROR',
-#             'propagate': True,
-#         },
-#         'django': {
-#             'handlers': ['null', ],
-#         },
-#         'py.warnings': {
-#             'handlers': ['null', ],
-#         },
-#         '': {
-#             'handlers': ['console', 'production_file', 'debug_file'],
-#             'level': "DEBUG",
-#         },
-#     }
-# }
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        },
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue'
+        }
+    },
+    'formatters': {
+        'main_formatter': {
+            'format': '%(levelname)s:%(name)s: %(message)s '
+                      '(%(asctime)s; %(filename)s:%(lineno)d)',
+            'datefmt': "%Y-%m-%d %H:%M:%S",
+        },
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'console': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'main_formatter',
+        },
+        'production_file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/main.log',
+            'maxBytes': 1024 * 1024 * 5,  # 5 MB
+            'backupCount': 7,
+            'formatter': 'main_formatter',
+            'filters': ['require_debug_false'],
+        },
+        'debug_file': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/main_debug.log',
+            'maxBytes': 1024 * 1024 * 5,  # 5 MB
+            'backupCount': 7,
+            'formatter': 'main_formatter',
+            'filters': ['require_debug_true'],
+        },
+        'null': {
+            "class": 'logging.NullHandler',
+        }
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins', 'console'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        'django': {
+            'handlers': ['null', ],
+        },
+        'py.warnings': {
+            'handlers': ['null', ],
+        },
+        '': {
+            'handlers': ['console', 'production_file', 'debug_file'],
+            'level': "DEBUG",
+        },
+    }
+}
 
 
 
@@ -211,7 +211,7 @@ USE_TZ = True
 
 
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
@@ -221,7 +221,7 @@ STATICFILES_DIRS = (
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
-
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

@@ -5,13 +5,13 @@
         {% if manufacturers_results %}
             <p><b>Поиск по производителям:</b></p>
             {% for manufacturer in manufacturers_results %}
-                <a href="{% url 'eshop:manufacturer_detail' manufacturer.id %}"><p>{{ manufacturer.manufacturer_name }}</p></a>
+                <a href="{% url 'eshop:manufacturer_detail' manufacturer.manufacturer_name %}"><p>{{ manufacturer.manufacturer_name }}</p></a>
             {% endfor %}
         {% endif %}
         {% if phone_results %}
             <p><b>Поиск по моделям телефонов:</b></p>
             {% for phone in phone_results %}
-                <a href="{% url 'eshop:phonemodel_detail' phone.id %}"><p>{{ phone.phone_model }}</p></a>
+                <a href="{% url 'eshop:phonemodel_detail' phone.phone_model %}"><p>{{ phone.phone_model }}</p></a>
             {% endfor %}
         {% else %}
             <p><strong>Ничего не найдено, либо Вы ничего и не искали!</strong></p>

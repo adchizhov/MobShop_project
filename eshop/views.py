@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-# import logging
+import logging
 from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import render, redirect
@@ -12,11 +12,11 @@ from .models import Manufacturer, PhoneProduct
 
 __author__ = 'adchizhov'
 
-# logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
-# logger.debug("Low level system information for debugging purposes")
-# logger.warning("Information describing a minor problem that has occurred.")
-# logger.error("Information describing a major problem that has occurred.")
+logger.debug("Low level system information for debugging purposes")
+logger.warning("Information describing a minor problem that has occurred.")
+logger.error("Information describing a major problem that has occurred.")
 
 
 class IndexView(generic.TemplateView):

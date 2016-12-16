@@ -1,0 +1,65 @@
+html {
+    background-color: lightgrey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+
+img.pictures {
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding:1px;
+    border:1px solid #021a40;
+}
+
+.center{
+    width:140px;
+    margin:0 auto;
+    text-align:left;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: rebeccapurple;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: mediumpurple !important;
+}
+
+.navbar-default {
+    background-color: linen;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: rebeccapurple !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: mediumpurple !important;
+}
+
+ul.nav li.active a {
+    color: rebeccapurple !important;
+}
+
+.order-created {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    color: linen;
+    background-color: rebeccapurple;
+}
