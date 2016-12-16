@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 from django.contrib.auth.models import User
 from django import forms
 from phonenumber_field import formfields
-from phonenumber_field.modelfields import PhoneNumberField
 from phonenumber_field.widgets import PhoneNumberPrefixWidget
 
 from .models import PhoneProduct, Order
@@ -35,6 +34,7 @@ class OrderForm(forms.ModelForm):
             'product',
             'comment',
         ]
+
 
 class PhoneProductForm(forms.ModelForm):
     class Meta:
