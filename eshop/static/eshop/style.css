@@ -1,5 +1,5 @@
 html {
-    background-color: antiquewhite;
+    background-color: lightgrey;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: lightgrey;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -31,30 +31,35 @@ img.pictures {
 
 .navbar-default .navbar-brand {
     font-family: 'Lobster', cursive;
-    color: whitesmoke;
+    color: rebeccapurple;
 }
 
 .navbar-default .navbar-brand:hover {
-    color: antiquewhite !important;
+    color: mediumpurple !important;
 }
 
 .navbar-default {
-    background-color: darkslategrey;
+    background-color: linen;
 }
 
 ul.nav li a, ul.nav li a:visited {
-    color: whitesmoke !important;
+    color: rebeccapurple !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: antiquewhite !important;
+    color: mediumpurple !important;
 }
 
 ul.nav li.active a {
-    color: whitesmoke !important;
+    color: rebeccapurple !important;
 }
 
 .order-created {
     font-size: 20px;
     text-align: center;
+}
+
+.btn {
+    color: linen;
+    background-color: rebeccapurple;
 }

@@ -51,12 +51,12 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li style="color: whitesmoke">
-                    <p class="navbar-text" style="color: whitesmoke">
+                    <p class="navbar-text" style="color: rebeccapurple">
                         <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;
                         {% if user.is_authenticated %}
                             Привет, {{ user.get_username }}!
                         {% else %}
-                            Привет, незнакомец!
+                            Привет, ищущий!
                         {% endif %}
                     </p>
                 </li>
