@@ -1,21 +1,13 @@
 {% for field in form %}
-<div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
         <span class="text-danger small">
-            {% if form.errors %}
-                {% for field in form %}
-                    {% for error in field.errors %}
-                        <p><strong>{{ error|escape }}</strong></p>
-                    {% endfor %}
-                {% endfor %}
-                {% for error in form.non_field_errors %}
-                    <p><strong>{{ error|escape }}</strong></p>
-                {% endfor %}
-            {% endif %}
-        </span>
+            <div class="fieldWrapper">
+                {{ field.errors }}
+            </div>
+        </div>
+        <label class="control-label col-sm-2">{{ field.label_tag }}</label>
+        <div class="col-sm-10">{{ field }}
+        </div>
     </div>
-    <label class="control-label col-sm-2">{{ field.label_tag }}</label>
-    <div class="col-sm-10">{{ field }}
-    </div>
-</div>
 {% endfor %}

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+# import logging
 from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import render, redirect
-# import logging
 from django.views import generic
 from django.contrib.auth import authenticate, login, logout
 from .forms import PhoneProductForm, UserForm, OrderForm
@@ -40,18 +40,9 @@ class ManufacturersView(generic.ListView):
         return Manufacturer.objects.all().order_by('manufacturer_name')
 
 
-# via function
-# def show_manufacturers(request):
-#     all_manufacturers = Manufacturer.objects.all()
-#     count_manufacturers = Manufacturer.objects.count()
-#     c = {'all_manufacturers': all_manufacturers, 'count_manufacturers': count_manufacturers}
-#     return render(request, 'eshop/manufacturers.html', c)
-#
-
-
-def manufacturer_models(request, manufacturer_id):
+def manufacturer_models(request, manufacturer_n):
     try:
-        manufacturer = Manufacturer.objects.get(pk=manufacturer_id)
+        manufacturer = Manufacturer.objects.get(manufacturer_name=manufacturer_n)
         manuf_models = manufacturer.phoneproduct_set.all()
     except Manufacturer.DoesNotExist:
         raise Http404("Нет такого производителя!")
@@ -75,14 +66,14 @@ class PhoneModelsView(generic.ListView):
         return PhoneProduct.objects.all().order_by('phone_model')
 
 
-def phonemodel_detail(request, phonemodel_id):
+def phonemodel_detail(request, phone_n):
     try:
-        phone_model = PhoneProduct.objects.get(pk=phonemodel_id)
-        phone_detail = PhoneProductForm(instance=phone_model)
+        picked_phone_model = PhoneProduct.objects.get(phone_model=phone_n)
+        phone_detail = PhoneProductForm(instance=picked_phone_model)
     except PhoneProduct.DoesNotExist:
         raise Http404("Нет такой модели!")
     return render(request, 'eshop/phonemodel_detail.html',
-                  {'phone_detail': phone_detail, 'phone_modelname': phone_model})
+                  {'phone_detail': phone_detail, 'phone_modelname': picked_phone_model})
 
 
 def make_order(request):

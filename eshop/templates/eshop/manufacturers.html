@@ -8,7 +8,7 @@
         {% if all_manufacturers %}
             <ul>
                 {% for manu in all_manufacturers %}
-                    <li><a href="{% url 'eshop:manufacturer_detail' manu.id %}">{{ manu.manufacturer_name }}</a></li>
+                    <li><a href="{% url 'eshop:manufacturer_detail' manu.manufacturer_name %}">{{ manu.manufacturer_name }}</a></li>
                 {% endfor %}
             </ul>
         {% else %}

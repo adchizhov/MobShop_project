@@ -17,11 +17,11 @@ urlpatterns = [
     # eshop/login
     url(r'^login/$', views.login_user, name='login'),
     # /eshop/manufacturers/2/
-    url(r'^manufacturers/(?P<manufacturer_id>[0-9]+)/$', views.manufacturer_models, name='manufacturer_detail'),
+    url(r'^manufacturers/(?P<manufacturer_n>[a-zA-Z0-9]+)/$', views.manufacturer_models, name='manufacturer_detail'),
     # /eshop/phonemodels/
     url(r'^phonemodels/$', views.PhoneModelsView.as_view(), name='phonemodels'),
     # /eshop/phonemodels/1
-    url(r'^phonemodels/(?P<phonemodel_id>[0-9]+)/$', views.phonemodel_detail, name='phonemodel_detail'),
+    url(r'^phonemodels/(?P<phone_n>[a-zA-Z0-9 ]+)/$', views.phonemodel_detail, name='phonemodel_detail'),
     # /eshop/make_order/
     url(r'^makeorder/$', views.make_order, name='make_order'),
     # /eshop/order_created

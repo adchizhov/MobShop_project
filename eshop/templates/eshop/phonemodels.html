@@ -7,11 +7,11 @@
     <div class="text-center col-lg-6 col-lg-offset-3">
         {% if all_phonemodels %}
             <ul style="list-style-type: none;">
-                {% for modelphone in all_phonemodels %}
+                {% for phone in all_phonemodels %}
                     <li>
-                        <a href="{% url 'eshop:phonemodel_detail' modelphone.id %}">
-                            {{ modelphone.phone_model}}
-                            <img src="{{ modelphone.image.url }}" class="img-rounded img-responsive center-block"
+                        <a href="{% url 'eshop:phonemodel_detail' phone.phone_model %}">
+                            {{ phone.phone_model}}
+                            <img src="{{ phone.image.url }}" class="img-rounded img-responsive center-block"
                              height="100" width="50" alt="{{ phone.phone_model }}">
                         </a>
                     </li>

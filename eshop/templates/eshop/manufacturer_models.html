@@ -14,7 +14,7 @@
             {% for phone in manuf_models %}
                 <div class="text-center">
                     <p align="center"><b>{{ phone.phone_model }}</b></p>
-                    <a href="{% url 'eshop:phonemodel_detail' phone.id %}">
+                    <a href="{% url 'eshop:phonemodel_detail' phone.phone_model %}">
                         <img src="{{ phone.image.url }}" class="img-rounded img-responsive center-block"
                              height="200" width="100" alt="{{ phone.phone_model }}">
                     </a>

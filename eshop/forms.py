@@ -3,6 +3,9 @@
 from __future__ import unicode_literals
 from django.contrib.auth.models import User
 from django import forms
+from phonenumber_field import formfields
+from phonenumber_field.modelfields import PhoneNumberField
+from phonenumber_field.widgets import PhoneNumberPrefixWidget
 
 from .models import PhoneProduct, Order
 
@@ -14,6 +17,11 @@ class OrderForm(forms.ModelForm):
         widget=forms.TextInput,
         error_messages={'invalid': 'Введите e-mail в верном виде'},
         label="E-mail",
+    )
+    phone_number = formfields.PhoneNumberField(
+        widget=PhoneNumberPrefixWidget,
+        error_messages={'invalid': 'Введите номер телефона в правильном формате'},
+        label='Номер телефона',
     )
 
     class Meta:
