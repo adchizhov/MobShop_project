@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 from django.utils import timezone
+from django.utils.translation import ugettext as _
 from djmoney.models.fields import MoneyField
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
@@ -20,8 +21,8 @@ class Manufacturer(models.Model):
     manufacturer_info = models.CharField(max_length=3000)
 
     class Meta:
-        verbose_name = 'Производитель'
-        verbose_name_plural = 'Производители'
+        verbose_name = _('Manufacturer')
+        verbose_name_plural = _('Manufacturers')
 
     def __str__(self):
         return 'Производитель: {}'.format(self.manufacturer_name)
