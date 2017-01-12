@@ -27,6 +27,10 @@ class IndexView(generic.TemplateView):
     template_name = "eshop/index.html"
 
 
+class OnMap(generic.TemplateView):
+    template_name = "eshop/onmap.html"
+
+
 def where(request):
     ip = get_ip(request)
     geoloc = GeoIP()

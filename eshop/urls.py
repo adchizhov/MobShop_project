@@ -10,6 +10,8 @@ urlpatterns = [
     url(r'^$', views.IndexView.as_view(), name='index'),
     # eshop/where
     url(r'^where/$', views.where, name='where'),
+    # eshop/onmap
+    url(r'^onmap/$', views.OnMap.as_view(), name='onmap'),
     # eshop/manufacturers/
     url(r'^manufacturers/$', views.ManufacturersView.as_view(), name='manufacturers'),
     # eshop/register

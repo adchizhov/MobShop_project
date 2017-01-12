@@ -21,7 +21,7 @@
     </script>
     <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <div id="loc" align="center">
-        <b><ins>Ваше местоположение (через скрипт Yandex API):</ins></b>
+        <b>Ваше местоположение (через скрипт Yandex API):</b>
         <div id="user-city"></div> <div id="user-region"></div><div id="user-country"></div>
         {% if context %}
             <p><b>Ваш город (через GeoLiteCity): {{ context.city }}</b></p><br>
@@ -29,6 +29,7 @@
         {% else %}
             <strong>Не работает бля, ибо localhost?)</strong>
         {% endif %}
+        <p><b><a href="{% url 'eshop:onmap' %}">Посмотри на карте (через Google)</a></b></p>
     </div>
 
 {% endblock %}
