@@ -6,35 +6,4 @@
         <p class="welcome" align="center">С каждым днем продолжаем развиваться.</p>
     </div>
     <img class="pictures" src="{% static 'eshop/img/BeFunkyDesign.png' %}" alt="Home page">
-
-    <script src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        function one() {
-            jQuery("#user-city").text(ymaps.geolocation.city);
-            jQuery("#user-region").text(ymaps.geolocation.region);
-            jQuery("#user-country").text(ymaps.geolocation.country);
-        }
-
-        function two() {
-            var city = ymaps.geolocation.city;
-            alert("Ваш город: " + city)
-        }
-        function start() {
-            one();
-            two();
-        }
-        window.onload = start;
-    </script>
-    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-    <div id="loc" align="center">
-        <b><ins>Ваше местоположение (через скрипт Yandex API):</ins></b>
-        <div id="user-city"></div> <div id="user-region"></div><div id="user-country"></div>
-        {% if context %}
-            <p><b><ins>Ваш город (через GeoLiteCity): {{ context.city }}</ins></b></p><br>
-            <p><b><ins>Ваш номер ip в сети: {{ myip }}</ins></b></p>
-        {% else %}
-            <strong>Не работает бля, ибо localhost?)</strong>
-        {% endif %}
-    </div>
-
 {% endblock %}

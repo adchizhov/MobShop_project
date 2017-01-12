@@ -31,14 +31,15 @@
         <!-- items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav">
-                <li><a href="{% url 'eshop:manufacturers' %}"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp; Производители</a></li>
-                <li><a href="{% url 'eshop:phonemodels' %}"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp; Модели телефонов</a></li>
+                <li><a href="{% url 'eshop:where' %}"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;Боже. Где я?</a></li>
+                <li><a href="{% url 'eshop:manufacturers' %}"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>&nbsp;Производители</a></li>
+                <li><a href="{% url 'eshop:phonemodels' %}"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp;Модели телефонов</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-middle">
-                <li><a href="{% url 'eshop:make_order' %}"><span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>&nbsp; Сделать заказ</a></li>
+                <li><a href="{% url 'eshop:make_order' %}"><span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>&nbsp;Сделать заказ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-middle">
-                <li><a href="{% url 'eshop:register' %}"><span class="glyphicon glyphicon-registration-mark" aria-hidden="true"></span>&nbsp; Регистрация</a></li>
+                <li><a href="{% url 'eshop:register' %}"><span class="glyphicon glyphicon-registration-mark" aria-hidden="true"></span>&nbsp;Регистрация</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search" method="get" action="{% url 'eshop:search' %}">
                 <div class="form-group">
@@ -47,7 +48,7 @@
                 <button type="submit" class="btn btn-default">Поиск</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="{% url 'eshop:logout' %}"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Выйти</a></li>
+                <li><a href="{% url 'eshop:logout' %}"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp;Выйти</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li style="color: whitesmoke">
@@ -62,7 +63,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="{% url 'eshop:login' %}"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Войти</a></li>
+                <li><a href="{% url 'eshop:login' %}"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Войти</a></li>
             </ul>
         </div>
     </div>

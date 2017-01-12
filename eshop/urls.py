@@ -7,7 +7,9 @@ __author__ = 'adchizhov'
 app_name = 'eshop'
 urlpatterns = [
     # eshop/
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.IndexView.as_view(), name='index'),
+    # eshop/where
+    url(r'^where/$', views.where, name='where'),
     # eshop/manufacturers/
     url(r'^manufacturers/$', views.ManufacturersView.as_view(), name='manufacturers'),
     # eshop/register

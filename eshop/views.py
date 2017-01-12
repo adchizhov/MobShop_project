@@ -23,14 +23,18 @@ logger.warning("Information describing a minor problem that has occurred.")
 logger.error("Information describing a major problem that has occurred.")
 
 
-def index(request):
+class IndexView(generic.TemplateView):
+    template_name = "eshop/index.html"
+
+
+def where(request):
     ip = get_ip(request)
     geoloc = GeoIP()
     context = geoloc.city(ip)
 
     return render(
         request,
-        'eshop/index.html',
+        'eshop/where.html',
         {'context': context, 'myip': ip}
     )
 
