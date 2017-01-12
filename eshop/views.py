@@ -2,11 +2,15 @@
 from __future__ import unicode_literals
 
 import logging
+
+from django.contrib.gis.geoip import GeoIP
 from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import render, redirect
 from django.views import generic
 from django.contrib.auth import authenticate, login, logout
+from ipware.ip import get_ip
+
 from .forms import PhoneProductForm, UserForm, OrderForm
 from .models import Manufacturer, PhoneProduct
 
@@ -19,8 +23,16 @@ logger.warning("Information describing a minor problem that has occurred.")
 logger.error("Information describing a major problem that has occurred.")
 
 
-class IndexView(generic.TemplateView):
-    template_name = 'eshop/index.html'
+def index(request):
+    ip = get_ip(request)
+    geoloc = GeoIP()
+    context = geoloc.city('193.201.89.115')
+
+    return render(
+        request,
+        'eshop/index.html',
+        {'context': context, 'myip': ip}
+    )
 
 
 class OrderCreatedView(generic.TemplateView):

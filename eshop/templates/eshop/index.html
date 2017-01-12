@@ -29,6 +29,12 @@
     <div id="loc" align="center">
         <b>Ваше местоположение:</b>
         <div id="user-city"></div> <div id="user-region"></div><div id="user-country"></div>
+        {% if context %}
+            <p>{{ context.city }}</p><br>
+            <p>{{ myip }}</p>
+        {% else %}
+            <strong>Не работает бля, ибо localhost?)</strong>
+        {% endif %}
     </div>
 
 {% endblock %}
