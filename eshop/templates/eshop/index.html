@@ -27,11 +27,11 @@
     </script>
     <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <div id="loc" align="center">
-        <b>Ваше местоположение (через скрипт Yandex API):</b>
+        <b><ins>Ваше местоположение (через скрипт Yandex API):</ins></b>
         <div id="user-city"></div> <div id="user-region"></div><div id="user-country"></div>
         {% if context %}
-            <p> Ваш город (через GeoLiteCity): {{ context.city }}</p><br>
-            <p> Ваш номер ip в сети: {{ myip }}</p>
+            <p><b><ins>Ваш город (через GeoLiteCity): {{ context.city }}</ins></b></p><br>
+            <p><b><ins>Ваш номер ip в сети: {{ myip }}</ins></b></p>
         {% else %}
             <strong>Не работает бля, ибо localhost?)</strong>
         {% endif %}
