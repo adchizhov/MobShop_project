@@ -26,7 +26,7 @@ logger.error("Information describing a major problem that has occurred.")
 def index(request):
     ip = get_ip(request)
     geoloc = GeoIP()
-    context = geoloc.city('193.201.89.115')
+    context = geoloc.city(ip)
 
     return render(
         request,
