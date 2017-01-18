@@ -10,7 +10,7 @@ from django.shortcuts import render, redirect
 from django.views import generic
 from django.contrib.auth import authenticate, login, logout
 from ipware.ip import get_ip
-
+from pysyge.pysyge import GeoLocator, MODE_BATCH, MODE_MEMORY
 from .forms import PhoneProductForm, UserForm, OrderForm
 from .models import Manufacturer, PhoneProduct
 
@@ -35,7 +35,8 @@ def where(request):
     ip = get_ip(request)
     geoloc = GeoIP()
     context = geoloc.city(ip)
-
+    # geodata = GeoLocator('SxGeoCity.dat', MODE_BATCH | MODE_MEMORY)
+    # location = geodata.get_location(ip, detailed=True)
     return render(
         request,
         'eshop/where.html',
